@@ -12,4 +12,3 @@ do
 	tail -n +2 $NameWithoutExt".csv" > $NameWithoutExt".tmp";
 	mv $NameWithoutExt".tmp" $NameWithoutExt".csv";
 done
-
