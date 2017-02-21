@@ -1,3 +1,14 @@
+##### ignore #####
+# mac files
 .DS_Store
 ._*
+# folders
 Prices
+R
+
+##### not ignore #####
+# R scripts
+!R/*.R
+!R/*.r
+!R/*/*.R
+!R/*/*.r
