@@ -1,0 +1,9 @@
+{
+    "path" : "~/Fund/R/Portfolio",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
