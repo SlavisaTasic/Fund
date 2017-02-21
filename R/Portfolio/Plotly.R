@@ -68,29 +68,29 @@ eff.frontier <- data.frame(Risk = rep(NA, length(vec)),
 frontier.weights <- mat.or.vec(nr = length(vec), nc = ncol(returns.data))
 colnames(frontier.weights) <- colnames(returns.data)
 for (i in 1:length(vec)) {
-   eff.port <- add.constraint(port, type = "return", name = "mean", return_target = vec[i])
-   eff.port <- add.objective(eff.port, type = "risk", name = "var")
+  eff.port <- add.constraint(port, type = "return", name = "mean", return_target = vec[i])
+  eff.port <- add.objective(eff.port, type = "risk", name = "var")
   # eff.port <- add.objective(eff.port, type = "weight_concentration", name = "HHI",
   #                            conc_aversion = 0.001)
-   eff.port <- optimize.portfolio(returns.data, eff.port, optimize_method = "ROI")
-   eff.frontier$Risk[i] <- sqrt(t(eff.port$weights) %*% covMat %*% eff.port$weights)
-   eff.frontier$Return[i] <- eff.port$weights %*% meanReturns
-   eff.frontier$SharpeRatio[i] <- eff.frontier$Return[i] / eff.frontier$Risk[i]
-   frontier.weights[i,] = eff.port$weights
-   print(paste(round(i/length(vec) * 100, 0), "% done..."))
+  eff.port <- optimize.portfolio(returns.data, eff.port, optimize_method = "ROI")
+  eff.frontier$Risk[i] <- sqrt(t(eff.port$weights) %*% covMat %*% eff.port$weights)
+  eff.frontier$Return[i] <- eff.port$weights %*% meanReturns
+  eff.frontier$SharpeRatio[i] <- eff.frontier$Return[i] / eff.frontier$Risk[i]
+  frontier.weights[i,] = eff.port$weights
+  print(paste(round(i/length(vec) * 100, 0), "% done..."))
 }
 
 FeasiblePortfolios <- data.frame(Risk = rep(NA, length(rportfolios)/6),
-                       Return = rep(NA, length(rportfolios)/6),
-                       SharpeRatio = rep(NA, length(rportfolios)/6) )
+                                 Return = rep(NA, length(rportfolios)/6),
+                                 SharpeRatio = rep(NA, length(rportfolios)/6) )
 
 FeasiblePortfolios$Risk <- apply(rportfolios, 1, function(x){
-   return(sqrt(matrix(x, nrow = 1) %*% covMat %*% matrix(x, ncol = 1)))
-   }
+  return(sqrt(matrix(x, nrow = 1) %*% covMat %*% matrix(x, ncol = 1)))
+}
 )
 FeasiblePortfolios$Return <- apply(rportfolios, 1, function(x){
-   return(x %*% meanReturns)
-   }
+  return(x %*% meanReturns)
+}
 )
 FeasiblePortfolios$SharpeRatio <- FeasiblePortfolios$Return/FeasiblePortfolios$Risk
 
@@ -106,29 +106,29 @@ p <- plot_ly(data = FeasiblePortfolios, x = ~Risk, y = ~Return,
                            '</br>St.dev: ', format(100*Risk, digits=2), '%',
                            '</br>Return: ', format(100*Return, digits=2), '%', #sep=''
                            '</br>Return: ', round(100*Return, 2), '%', sep='' )
-             ) %>%
-
-   add_trace(data = eff.frontier, x = ~Risk, y = ~Return,
-             name = "Efficient Frontier",
-             mode = "markers", type = "scatter",
-             showlegend = F,
-             marker = list(color = "#F7C873",
-                           size = 2),
-             hoverinfo = 'text',
-             text = ~paste('Efficient Frontier',
-                           '</br>St.dev: ', format(100*Risk, digits=2), '%',
-                           '</br>Return: ', format(100*Return, digits=2), '%', #sep=''
-                           '</br>Return: ', round(100*Return, 2), '%', sep='' )
 ) %>%
-
-   layout(title = "Random Portfolios with Plotly",
-          yaxis = list(title = "Mean Returns", showgrid = F, tickformat = ".2%"),
-          xaxis = list(title = "Standard Deviation", showgrid = F, tickformat = ".1%")
-          # annotations = list(list(x = 0.4, y = 0.75,
-          #                         ax = -30, ay = -30,
-          #                         text = "Efficient frontier",
-          #                         font = list(color = "#F6E7C1",
-          #                                     size = 15),
-          #                         arrowcolor = "white")
-          #                    )
-          )
+  
+  add_trace(data = eff.frontier, x = ~Risk, y = ~Return,
+            name = "Efficient Frontier",
+            mode = "markers", type = "scatter",
+            showlegend = F,
+            marker = list(color = "#F7C873",
+                          size = 2),
+            hoverinfo = 'text',
+            text = ~paste('Efficient Frontier',
+                          '</br>St.dev: ', format(100*Risk, digits=2), '%',
+                          '</br>Return: ', format(100*Return, digits=2), '%', #sep=''
+                          '</br>Return: ', round(100*Return, 2), '%', sep='' )
+  ) %>%
+  
+  layout(title = "Random Portfolios with Plotly",
+         yaxis = list(title = "Mean Returns", showgrid = F, tickformat = ".2%"),
+         xaxis = list(title = "Standard Deviation", showgrid = F, tickformat = ".1%")
+         # annotations = list(list(x = 0.4, y = 0.75,
+         #                         ax = -30, ay = -30,
+         #                         text = "Efficient frontier",
+         #                         font = list(color = "#F6E7C1",
+         #                                     size = 15),
+         #                         arrowcolor = "white")
+         #                    )
+  )
