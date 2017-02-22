@@ -1,0 +1,4 @@
+#!/bin/bash
+# auto pull from GitHub
+
+git pull origin mac
