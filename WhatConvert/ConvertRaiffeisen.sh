@@ -16,7 +16,7 @@ do
  	mv $Path/$NameWithoutExt".tmp" $Path/$NameWithoutExt".csv";
 done
 
-R <<RSCRIPT
+R --vanilla <<RSCRIPT
 
 remove(list=ls())
 
