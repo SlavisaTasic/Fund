@@ -12,3 +12,4 @@ R
 !R/*.r
 !R/*/*.R
 !R/*/*.r
+.Rproj.user
