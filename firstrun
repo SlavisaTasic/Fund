@@ -2,4 +2,4 @@
 # first run
 
 ssh-agent bash
-ssh-add /home/username/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa
