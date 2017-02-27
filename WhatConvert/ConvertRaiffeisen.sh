@@ -16,7 +16,7 @@ do
  	mv $Path/$NameWithoutExt".tmp" $Path/$NameWithoutExt".csv";
 done
 
-R --random-flags <<RSCRIPT
+R <<RSCRIPT
 
 remove(list=ls())
 
