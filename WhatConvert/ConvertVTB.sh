@@ -3,7 +3,7 @@
 
 CurrentDate='date +%d.%m.%Y'
 
-for i in .$HOME/Fund/Prices/`$CurrentDate`/v/*.html;
+for i in $HOME/Fund/Prices/`$CurrentDate`/v/*.html;
 do
  	Path=$(dirname $i);
  	FullName=$(basename $i);
