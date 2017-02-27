@@ -9,8 +9,6 @@ do
  	FullName=$(basename $i);
  	NameWithoutExt=$(echo "${FullName%%.*}");
 #	grep -i -e '</\?td\|</\?tr' "$i" > $Path/$NameWithoutExt".csv";
-	echo $i
-	echo $Path/$NameWithoutExt
  	sed '/<tr><th>Дата/,$!d' "$i" > $Path/$NameWithoutExt".csv";
  	sed -i 's/^[ 	]*//g' $Path/$NameWithoutExt".csv"; # delete spaces and tabs; works
  	tr -d '\n\r' < $Path/$NameWithoutExt".csv" > $Path/$NameWithoutExt".tmp"
