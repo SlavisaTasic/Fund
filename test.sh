@@ -18,5 +18,5 @@ if [ ! -d $Path/s ]; then mkdir -p $Path/s; fi
 while read -r url && read -r output <&3; do
 	curl \
 		--url `echo $(eval "echo $url")` \
-		--output $Path"s/"`echo $(eval "echo $output")`
-done < ./WhatDownload/Sber 3< ./WhatDownload/outputfile
+		--output $Path"s/"`echo $(eval "echo $output")`".xls"
+done < ./WhatDownload/urls 3< ./WhatDownload/outputfile

@@ -43,8 +43,8 @@ curl \
 	--url 'https://www.vtbcapital-am.ru/bitrix/components/articul/quotes/templates/.default/download.php?SHOWALL_1=1&from=01.01.2013&to=${To}&FOND_ID=30190' \
 	--output $Path'/v/16_VTBMM.xls' \
 	--url 'https://www.vtbcapital-am.ru/bitrix/components/articul/quotes/templates/.default/download.php?SHOWALL_1=1&from=01.01.2013&to=${To}&FOND_ID=30176' \
-	--output $Path'/v/17_VTMPM.xls' \
+	--output $Path'/v/17_VTBPM.xls' \
 	--url 'https://www.vtbcapital-am.ru/bitrix/components/articul/quotes/templates/.default/download.php?SHOWALL_1=1&from=01.01.2013&to=${To}&FOND_ID=30188' \
-	--output $Path'/v/18_VTMPP.xls' \
+	--output $Path'/v/18_VTBPP.xls' \
 	--url 'https://www.vtbcapital-am.ru/bitrix/components/articul/quotes/templates/.default/download.php?SHOWALL_1=1&from=01.01.2013&to=${To}&FOND_ID=30177' \
 	--output $Path'/v/19_VTBKM.xls' 

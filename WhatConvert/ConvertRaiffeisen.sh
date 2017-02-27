@@ -3,6 +3,9 @@
 
 CurrentDate='date +%d.%m.%Y'
 
+# откатить!!!
+
+
 for i in ./Prices/`$CurrentDate`/r/*.xls;
 do
 	Path=$(dirname $i);
