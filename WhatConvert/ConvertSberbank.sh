@@ -8,7 +8,7 @@ do
  	Path=$(dirname $i);
  	FullName=$(basename $i);
  	NameWithoutExt=$(echo "${FullName%%.*}");
- 	echo $Path/$NameWithoutExt
+ 	echo $Path/$NameWithoutExt".csv"
 #  	sed '/^.*<table border="1"><tr><td>/!d' "$i" > $NameWithoutExt".csv"; # all strings before last
 #  	sed -i 's/^.*<table border="1"><tr><td>//g' $NameWithoutExt".csv"; # insert ,
 #  	sed -i 's/<\/td><td>/,/g' $NameWithoutExt".csv"; # insert ,
