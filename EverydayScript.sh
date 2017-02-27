@@ -2,4 +2,5 @@
 
 $HOME/Fund/DownloadPrices.sh
 $HOME/Fund/ConvertAll.sh
-$HOME/Fund/R/Portfolio/GetMonthlyReturns.R
+
+#$HOME/Fund/R/Portfolio/GetMonthlyReturns.R

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in ~/Fund/WhatDownload/*.sh;
+for i in $HOME/Fund/WhatDownload/*.sh;
 do
 	"$i"
 done
