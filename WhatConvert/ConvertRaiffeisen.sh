@@ -15,3 +15,55 @@ do
  	awk -f $HOME/Fund/WhatConvert/command.awk $Path/$NameWithoutExt".csv" > $Path/$NameWithoutExt".tmp";
  	mv $Path/$NameWithoutExt".tmp" $Path/$NameWithoutExt".csv";
 done
+
+R --random-flags <<RSCRIPT
+
+remove(list=ls())
+
+GetFileList <- function(){
+  Current.folder <- getwd()
+  Folder <- paste('~/Fund/Prices/',
+                  format(Sys.Date( ), format='%d.%m.%Y'),
+                  '/r',
+                  sep='')
+  setwd(Folder)
+  List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
+  for ( file in List.of.files){
+    file.full <- paste('~/Fund/Prices/',
+                       format(Sys.Date( ), format='%d.%m.%Y'),
+                       '/r/', file, sep='')
+    GetQuotes(file.full)
+  }
+}
+
+GetQuotes <- function(file.full){
+  file.path <- dirname(file.full)
+  # get $SYMBOL from file name
+  file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
+  file.symbol <- substring(file.name.without.ext, 4)
+  # get list of quotes from file
+  quotes.list <- read.csv(file.full, skip = 1, header = F)
+  # get dates, prices and net asset values from list
+  dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
+  prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
+  NAV <- data.matrix(quotes.list[[3]])
+  NAV <- as.numeric(NAV)
+  # make symbol's character vector
+  symbol <- rep(file.symbol, times=length(dates))
+  # make dataframe
+  quotes <- data.frame(symbol, dates, prices, NAV)
+  # show(head(quotes[order(-as.numeric(dates)),]))
+  write.table(quotes[order(-as.numeric(dates)),],
+              file = paste(file.path,
+                           '/',
+                           file.symbol,
+                           '.quote',
+                           sep = ''),
+              sep = ',',
+              row.names = FALSE)
+}
+
+GetFileList()
+
+RSCRIPT
+

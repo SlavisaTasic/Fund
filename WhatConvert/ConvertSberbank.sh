@@ -1,18 +1,53 @@
-#!/bin/bash
-#Converting Sberbank PIFs prices HTML to CSV
+#!/usr/bin/Rscript
+# Converting Sberbank PIFs prices HTML to CSV
 
-CurrentDate='date +%d.%m.%Y'
+remove(list=ls())
 
-for i in $HOME/Fund/Prices/`$CurrentDate`/s/*.html;
-do
- 	Path=$(dirname $i);
- 	FullName=$(basename $i);
- 	NameWithoutExt=$(echo "${FullName%%.*}");
-	sed '/^.*<table border="1"><tr><td>/!d' "$i" > $Path/$NameWithoutExt".csv"; # all strings before last
-	sed -i 's/^.*<table border="1"><tr><td>//g' $Path/$NameWithoutExt".csv"; # insert ,
-	sed -i 's/<\/td><td>/,/g' $Path/$NameWithoutExt".csv"; # insert ,
-	sed -i 's/<\/td><\/tr><tr><td align="left" valign="middle">/\
-/g' $Path/$NameWithoutExt".csv"; # insert \n
-	sed -i 's/<\/td><td align="right" valign="middle" style="mso-number-format:0\\.00">/,/g' $Path/$NameWithoutExt".csv"; # insert ,
-	sed -i 's/<\/td><\/tr><\/table><\/body><\/html>//g' $Path/$NameWithoutExt".csv"; # all text in line after table
-done
+library(XML)
+
+GetFileList <- function(){
+  Current.folder <- getwd()
+  Folder <- paste('~/Fund/Prices/',
+                  format(Sys.Date( ), format='%d.%m.%Y'),
+                  '/s',
+                  sep='')
+  setwd(Folder)
+  List.of.files <- list.files(pattern = '*.html', recursive = TRUE)
+  for ( file in List.of.files){
+    file.full <- paste('~/Fund/Prices/',
+                       format(Sys.Date( ), format='%d.%m.%Y'),
+                       '/s/', file, sep='')
+    GetQuotes(file.full)
+  }
+}
+
+GetQuotes <- function(file.full){
+  file.path <- dirname(file.full)
+  # get $SYMBOL from file name
+  file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
+  file.symbol <- substring(file.name.without.ext, 4)
+  # get list of quotes from file
+  quotes.list <- readHTMLTable(file.full,
+                               header = c("dt", "prices", "NAV"),
+                               skip.rows = 1)
+  # get dates, prices and net asset values from list
+  dates <- as.Date(quotes.list[[1]][[1]], format = '%d.%m.%Y')
+  prices <- data.matrix(quotes.list[[1]][[2]])
+  prices <- as.numeric(prices)
+  NAV <- data.matrix(quotes.list[[1]][[3]])
+  NAV <- as.numeric(NAV)
+  # make symbol's character vector
+  symbol <- rep(file.symbol, times=length(dates))
+  # make dataframe
+  quotes <- data.frame(symbol, dates, prices, NAV)
+  write.table(quotes,
+              file = paste(file.path,
+                           '/',
+                           file.symbol,
+                           '.quote',
+                           sep = ''),
+              sep = ',',
+              row.names = FALSE)
+}
+
+GetFileList()

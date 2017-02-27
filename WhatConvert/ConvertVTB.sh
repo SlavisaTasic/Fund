@@ -1,26 +1,54 @@
-#!/bin/bash
-#Converting VTB PIFs prices HTML to CSV
+#!/usr/bin/Rscript
+# Converting VTB PIFs prices HTML to CSV
 
-CurrentDate='date +%d.%m.%Y'
+remove(list=ls())
 
-for i in $HOME/Fund/Prices/`$CurrentDate`/v/*.html;
-do
- 	Path=$(dirname $i);
- 	FullName=$(basename $i);
- 	NameWithoutExt=$(echo "${FullName%%.*}");
-#	grep -i -e '</\?td\|</\?tr' "$i" > $Path/$NameWithoutExt".csv";
- 	sed '/<tr><th>Дата/,$!d' "$i" > $Path/$NameWithoutExt".csv";
- 	sed -i 's/^[ 	]*//g' $Path/$NameWithoutExt".csv"; # delete spaces and tabs; works
- 	tr -d '\n\r' < $Path/$NameWithoutExt".csv" > $Path/$NameWithoutExt".tmp"
- 	mv $Path/$NameWithoutExt".tmp" $Path/$NameWithoutExt".csv"; # delete all newlines; works
- 	sed -i 's/,/;/g' $Path/$NameWithoutExt".csv"; # replace , with ; ;works
- 	sed -i 's/<tr><th>//g' $Path/$NameWithoutExt".csv"; # delete <tr><th> at the bebining of first string, works
- 	sed -i 's/<\/th><th>/,/g' $Path/$NameWithoutExt".csv"; # replace </th><th> witn , at first string, works
- 	sed -i 's/<\/th><\/tr><\/thead><tbody><tr>/\
-/g' $Path/$NameWithoutExt".csv"; # replace </th></tr></thead><tbody><tr> witn \n at first string, works
- 	sed -i 's/<\/td><\/tr><tr>/\
-/g' $Path/$NameWithoutExt".csv"; # make all strings, starting from the second, works
- 	sed -i 's/<td[^>]*>//g' $Path/$NameWithoutExt".csv"; # begin of strings with numbers; works
- 	sed -i 's/<\/td>/,/g' $Path/$NameWithoutExt".csv"; # replace </td> with , ;works
- 	sed -i 's/,<\/tr><\/tbody><\/table><\/body><\/html>//g' $Path/$NameWithoutExt".csv"; # delete ,</tr></tbody></table></body></html> at last string, works
-done
+library(XML)
+
+GetFileList <- function(){
+  Current.folder <- getwd()
+  Folder <- paste('~/Fund/Prices/',
+                  format(Sys.Date( ), format='%d.%m.%Y'),
+                  '/v',
+                  sep='')
+  setwd(Folder)
+  List.of.files <- list.files(pattern = '*.html', recursive = TRUE)
+  for ( file in List.of.files){
+    file.full <- paste('~/Fund/Prices/',
+                       format(Sys.Date( ), format='%d.%m.%Y'),
+                       '/v/', file, sep=''
+    )
+    GetQuotes(file.full)
+  }
+}
+
+GetQuotes <- function(file.full){
+  file.path <- dirname(file.full)
+  # get $SYMBOL from file name
+  file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
+  file.symbol <- substring(file.name.without.ext, 4)
+  # get list of quotes from file
+  quotes.list <- readHTMLTable(file.full,
+                               header = c("dt", "prices", "NAV"))
+  # show(head(quotes.list[[1]][[2]], -10))
+  # get dates, prices and net asset values from list
+  dates <- as.Date(quotes.list[[1]][[1]], format = '%d.%m.%Y')
+  prices <- data.matrix(quotes.list[[1]][[2]])
+  prices <- as.numeric(sub(",", ".", prices, fixed = TRUE))
+  NAV <- data.matrix(quotes.list[[1]][[3]])
+  NAV <- as.numeric(sub(",", ".", NAV, fixed = TRUE))
+  # make symbol's character vector
+  symbol <- rep(file.symbol, times=length(dates))
+  # make dataframe
+  quotes <- data.frame(symbol, dates, prices, NAV)
+  write.table(quotes,
+              file = paste(file.path,
+                           '/',
+                           file.symbol,
+                           '.quote',
+                           sep = ''),
+              sep = ',',
+              row.names = FALSE)
+}
+
+GetFileList()
