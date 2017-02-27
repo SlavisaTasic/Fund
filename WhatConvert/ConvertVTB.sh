@@ -3,12 +3,12 @@
 
 CurrentDate='date +%d.%m.%Y'
 
-for i in .$HOME/Fund/Prices/`$CurrentDate`/v/*.xls;
+for i in .$HOME/Fund/Prices/`$CurrentDate`/v/*.html;
 do
  	Path=$(dirname $i);
  	FullName=$(basename $i);
  	NameWithoutExt=$(echo "${FullName%%.*}");
-#	grep -i -e '</\?td\|</\?tr' "$i" > $NameWithoutExt".csv";
+#	grep -i -e '</\?td\|</\?tr' "$i" > $Path/$NameWithoutExt".csv";
  	sed '/<tr><th>Дата/,$!d' "$i" > $Path/$NameWithoutExt".csv";
  	sed -i 's/^[ 	]*//g' $Path/$NameWithoutExt".csv"; # delete spaces and tabs; works
  	tr -d '\n\r' < $Path/$NameWithoutExt".csv" > $Path/$NameWithoutExt".tmp"
