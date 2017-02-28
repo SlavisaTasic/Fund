@@ -11,7 +11,7 @@ do
 		-w \
 		-d Securities \
 
-		-c "\copy PIF(dt, price, net_asset_value) FROM '$i' DELIMITER ',' CSV HEADER"
+		-c "\copy pif_quotes(symbol, dt, price, NAV) FROM '$i' CSV HEADER"
 done
 
 
