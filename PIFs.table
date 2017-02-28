@@ -1,71 +1,71 @@
- pif_id |       issuer       |                  full_name                  | symbol 
---------+--------------------+---------------------------------------------+--------
-      1 | Alfa Capital       | Фонд акций Роста                            | ALFSGR
-      2 | Alfa Capital       | Индекс ММВБ                                 | ALFMVB
-      3 | Alfa Capital       | Баланс                                      | ALFBLN
-      4 | Alfa Capital       | Облигации Плюс                              | ALFBPL
-      5 | Alfa Capital       | Резерв                                      | ALFRSR
-      6 | Alfa Capital       | Ликвидные акции                             | ALFLQS
-      7 | Alfa Capital       | Еврооблигации                               | ALFEUR
-      8 | Alfa Capital       | Ресурсы                                     | ALFRES
-      9 | Alfa Capital       | Торговля                                    | ALRTRD
-     10 | Alfa Capital       | Технологии                                  | ALFTCH
-     11 | Alfa Capital       | Бренды                                      | ALFBRN
-     12 | Alfa Capital       | Инфраструктура                              | ALFINF
-     13 | Alfa Capital       | Золото                                      | ALFGLD
-     14 | Alfa Capital       | Альфа Капитал                               | ALFCPT
-     15 | Raiffeisen Capital | Акции                                       | RFSTCK
-     16 | Raiffeisen Capital | Облигации                                   | RFBOND
-     17 | Raiffeisen Capital | Сбалансированный                            | RFBLNC
-     18 | Raiffeisen Capital | США                                         | RFUSA
-     19 | Raiffeisen Capital | Потребительский сектор                      | RFCNSM
-     20 | Raiffeisen Capital | Сырьевой сектор                             | RFSRCS
-     21 | Raiffeisen Capital | Информационные технологии                   | RFIT
-     22 | Raiffeisen Capital | Электроэнергетика                           | RFENRG
-     23 | Raiffeisen Capital | Индекс ММВБ голубых фишек                   | RFMMVB
-     24 | Raiffeisen Capital | Индустриальный                              | RFINDS
-     25 | Raiffeisen Capital | Развивающиеся рынки                         | RFASIA
-     26 | Raiffeisen Capital | Европа                                      | RFBRIK
-     27 | Raiffeisen Capital | Золото                                      | RFGOLD
-     28 | Raiffeisen Capital | Казначейский                                | RFTRSR
-     29 | Raiffeisen Capital | Фонд активного управления                   | RFACT
-     30 | Raiffeisen Capital | Долговые рынки развитых стран               | RFEURO
-     31 | Sberbank AM        | Фонд облигаций «Илья Муромец»               | SBERIM
-     32 | Sberbank AM        | Фонд рискованных облигаций                  | SBERRB
-     33 | Sberbank AM        | Еврооблигации                               | SBEREB
-     34 | Sberbank AM        | Фонд акций «Добрыня Никитич»                | SBERDN
-     35 | Sberbank AM        | Фонд акций Компаний Малой Капитализации     | SBERPT
-     36 | Sberbank AM        | Природные ресурсы                           | SBERMT
-     37 | Sberbank AM        | Телекоммуникации и технологии               | SBERTC
-     38 | Sberbank AM        | Электроэнергетика                           | SBEREN
-     39 | Sberbank AM        | Потребительский сектор                      | SBERCS
-     40 | Sberbank AM        | Финансовый сектор                           | SBERFS
-     41 | Sberbank AM        | Фонд активного управления                   | SBERAM
-     42 | Sberbank AM        | Глобальный интернет                         | SBERGI
-     43 | Sberbank AM        | Фонд сбалансированный                       | SBERDR
-     44 | Sberbank AM        | Америка                                     | SBERFD
-     45 | Sberbank AM        | Развивающиеся рынки                         | SBEREM
-     46 | Sberbank AM        | Европа                                      | SBEREU
-     47 | Sberbank AM        | Глобальный долговой рынок                   | SBERDM
-     48 | Sberbank AM        | Золото                                      | SBERGD
-     49 | Sberbank AM        | Биотехнологии                               | SBERBT
-     50 | VTB Capital AM     | Фонд Казначейский                           | VTBTRE
-     51 | VTB Capital AM     | Фонд Еврооблигаций                          | VTBEUR
-     52 | VTB Capital AM     | Фонд Сбалансированный                       | VTBBLN
-     53 | VTB Capital AM     | Фонд акций                                  | VTBSTK
-     54 | VTB Capital AM     | Фонд перспективных инвестиций               | VTBLTI
-     55 | VTB Capital AM     | Индекс ММВБ                                 | VTBMVB
-     56 | VTB Capital AM     | Фонд глобальных дивидендов                  | VTBGD
-     57 | VTB Capital AM     | Фонд нефтегазового сектора                  | VTBONG
-     58 | VTB Capital AM     | Фонд Облигации Плюс                         | VTBBPL
-     59 | VTB Capital AM     | Фонд потребительского сектора               | VTBCS
-     60 | VTB Capital AM     | Фонд предприятий с государственным участием | VTBGOS
-     61 | VTB Capital AM     | Фонд телекоммуникаций                       | VTBTLC
-     62 | VTB Capital AM     | Фонд электроэнергетики                      | VTBENG
-     63 | VTB Capital AM     | Фонд Металлургии                            | VTBMTL
-     64 | VTB Capital AM     | БРИК                                        | VTBBRC
-     65 | VTB Capital AM     | Фонд денежного рынка                        | VTBMM
-     66 | VTB Capital AM     | Фонд драгоценных металлов                   | VTMPM
-     67 | VTB Capital AM     | Площадь Победы                              | VTMPP
-     68 | VTB Capital AM     | Кузнецкий Мост                              | VTBKM
-     
+ id |       issuer       |                  full_name      | symbol 
+----+--------------------+---------------------------------+--------
+  1 | Alfa Capital       | Фонд акций Роста                | ALFSGR
+  2 | Alfa Capital       | Индекс ММВБ                     | ALFMVB
+  3 | Alfa Capital       | Баланс                          | ALFBLN
+  4 | Alfa Capital       | Облигации Плюс                  | ALFBPL
+  5 | Alfa Capital       | Резерв                          | ALFRSR
+  6 | Alfa Capital       | Ликвидные акции                 | ALFLQS
+  7 | Alfa Capital       | Еврооблигации                   | ALFEUR
+  8 | Alfa Capital       | Ресурсы                         | ALFRES
+  9 | Alfa Capital       | Торговля                        | ALRTRD
+ 10 | Alfa Capital       | Технологии                      | ALFTCH
+ 11 | Alfa Capital       | Бренды                          | ALFBRN
+ 12 | Alfa Capital       | Инфраструктура                  | ALFINF
+ 13 | Alfa Capital       | Золото                          | ALFGLD
+ 14 | Alfa Capital       | Альфа Капитал                   | ALFCPT
+ 15 | Raiffeisen Capital | Акции                           | RFSTCK
+ 16 | Raiffeisen Capital | Облигации                       | RFBOND
+ 17 | Raiffeisen Capital | Сбалансированный                | RFBLNC
+ 18 | Raiffeisen Capital | США                             | RFUSA
+ 19 | Raiffeisen Capital | Потребительский сектор          | RFCNSM
+ 20 | Raiffeisen Capital | Сырьевой сектор                 | RFSRCS
+ 21 | Raiffeisen Capital | Информационные технологии       | RFIT
+ 22 | Raiffeisen Capital | Электроэнергетика               | RFENRG
+ 23 | Raiffeisen Capital | Индекс ММВБ голубых фишек       | RFMMVB
+ 24 | Raiffeisen Capital | Индустриальный                  | RFINDS
+ 25 | Raiffeisen Capital | Развивающиеся рынки             | RFASIA
+ 26 | Raiffeisen Capital | Европа                          | RFBRIK
+ 27 | Raiffeisen Capital | Золото                          | RFGOLD
+ 28 | Raiffeisen Capital | Казначейский                    | RFTRSR
+ 29 | Raiffeisen Capital | Фонд активного управления       | RFACT
+ 30 | Raiffeisen Capital | Долговые рынки развитых стран   | RFEURO
+ 31 | Sberbank AM        | Фонд облигаций «Илья Муромец»   | SBERIM
+ 32 | Sberbank AM        | Фонд рискованных облигаций      | SBERRB
+ 33 | Sberbank AM        | Еврооблигации                   | SBEREB
+ 34 | Sberbank AM        | Фонд акций «Добрыня Никитич»    | SBERDN
+ 35 | Sberbank AM        | Фонд акций Компаний Малой Кап   | SBERPT
+ 36 | Sberbank AM        | Природные ресурсы               | SBERMT
+ 37 | Sberbank AM        | Телекоммуникации и технологии   | SBERTC
+ 38 | Sberbank AM        | Электроэнергетика               | SBEREN
+ 39 | Sberbank AM        | Потребительский сектор          | SBERCS
+ 40 | Sberbank AM        | Финансовый сектор               | SBERFS
+ 41 | Sberbank AM        | Фонд активного управления       | SBERAM
+ 42 | Sberbank AM        | Глобальный интернет             | SBERGI
+ 43 | Sberbank AM        | Фонд сбалансированный           | SBERDR
+ 44 | Sberbank AM        | Америка                         | SBERFD
+ 45 | Sberbank AM        | Развивающиеся рынки             | SBEREM
+ 46 | Sberbank AM        | Европа                          | SBEREU
+ 47 | Sberbank AM        | Глобальный долговой рынок       | SBERDM
+ 48 | Sberbank AM        | Золото                          | SBERGD
+ 49 | Sberbank AM        | Биотехнологии                   | SBERBT
+ 50 | VTB Capital AM     | Фонд Казначейский               | VTBTRE
+ 51 | VTB Capital AM     | Фонд Еврооблигаций              | VTBEUR
+ 52 | VTB Capital AM     | Фонд Сбалансированный           | VTBBLN
+ 53 | VTB Capital AM     | Фонд акций                      | VTBSTK
+ 54 | VTB Capital AM     | Фонд перспективных инвестиций   | VTBLTI
+ 55 | VTB Capital AM     | Индекс ММВБ                     | VTBMVB
+ 56 | VTB Capital AM     | Фонд глобальных дивидендов      | VTBGD
+ 57 | VTB Capital AM     | Фонд нефтегазового сектора      | VTBONG
+ 58 | VTB Capital AM     | Фонд Облигации Плюс             | VTBBPL
+ 59 | VTB Capital AM     | Фонд потребительского сектора   | VTBCS
+ 60 | VTB Capital AM     | Фонд предприятий с гос участием | VTBGOS
+ 61 | VTB Capital AM     | Фонд телекоммуникаций           | VTBTLC
+ 62 | VTB Capital AM     | Фонд электроэнергетики          | VTBENG
+ 63 | VTB Capital AM     | Фонд Металлургии                | VTBMTL
+ 64 | VTB Capital AM     | БРИК                            | VTBBRC
+ 65 | VTB Capital AM     | Фонд денежного рынка            | VTBMM
+ 66 | VTB Capital AM     | Фонд драгоценных металлов       | VTBPM
+ 67 | VTB Capital AM     | Площадь Победы                  | VTBPP
+ 68 | VTB Capital AM     | Кузнецкий Мост                  | VTBKM
+ 

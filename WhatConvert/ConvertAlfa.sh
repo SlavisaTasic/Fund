@@ -27,10 +27,12 @@ GetQuotes <- function(file.full){
   file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
   file.symbol <- substring(file.name.without.ext, 4)
   # get list of quotes from file
-  quotes.list <- read_excel(file.full,
-                            sheet = 1,
-                            col_names = TRUE,
-                            skip = 1)
+  # I need to do this because of the crappy `DEFINEDNAME` output
+  capture.output(quotes.list <- read_excel(file.full,
+                                           sheet = 1,
+                                           col_names = TRUE,
+                                           skip = 1),
+                 file = "/dev/null")
   dates <- as.Date(quotes.list[[1]])
   prices <- data.matrix(quotes.list[[2]])
   NAV <- data.matrix(quotes.list[[3]])
@@ -39,6 +41,8 @@ GetQuotes <- function(file.full){
   symbol <- rep(file.symbol, times=length(dates))
   # make dataframe
   quotes <- data.frame(symbol, dates, prices, NAV)
+  # delete rows with NA
+  quotes <- quotes[rowSums(is.na(quotes)) == 0,]
   write.table(quotes,
               file = paste(file.path,
                            '/',
@@ -50,6 +54,3 @@ GetQuotes <- function(file.full){
 }
 
 GetFileList()
-
-
-

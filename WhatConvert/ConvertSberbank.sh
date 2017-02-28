@@ -40,6 +40,8 @@ GetQuotes <- function(file.full){
   symbol <- rep(file.symbol, times=length(dates))
   # make dataframe
   quotes <- data.frame(symbol, dates, prices, NAV)
+  # delete rows with NA
+  quotes <- quotes[rowSums(is.na(quotes)) == 0,]
   write.table(quotes,
               file = paste(file.path,
                            '/',
