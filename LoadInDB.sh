@@ -11,7 +11,8 @@ do
 		-w \
 		-d Securities \
 
-		-c "\copy pif_quotes(symbol, dt, price, NAV) FROM '$i' CSV HEADER"
+#		-c "\copy pif_quotes(symbol, dt, price, NAV) FROM $i CSV HEADER"
+		-c "\! ls -l"
 done
 
 
