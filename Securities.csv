@@ -33,7 +33,7 @@ Sberbank AM,Фонд облигаций «Илья Муромец»,SBERIM
 Sberbank AM,Фонд рискованных облигаций,SBERRB
 Sberbank AM,Еврооблигации,SBEREB
 Sberbank AM,Фонд акций «Добрыня Никитич»,SBERDN
-Sberbank AM,Фонд акций Компаний Малой Капитализации,SBERPT
+Sberbank AM,Фонд акций Компаний Малой Кап,SBERPT
 Sberbank AM,Природные ресурсы,SBERMT
 Sberbank AM,Телекоммуникации и технологии,SBERTC
 Sberbank AM,Электроэнергетика,SBEREN
@@ -58,7 +58,7 @@ VTB Capital AM,Фонд глобальных дивидендов,VTBGD
 VTB Capital AM,Фонд нефтегазового сектора,VTBONG
 VTB Capital AM,Фонд Облигации Плюс,VTBBPL
 VTB Capital AM,Фонд потребительского сектора,VTBCS
-VTB Capital AM,Фонд предприятий с государственным участием,VTBGOS
+VTB Capital AM,Фонд предприятий с гос участием,VTBGOS
 VTB Capital AM,Фонд телекоммуникаций,VTBTLC
 VTB Capital AM,Фонд электроэнергетики,VTBENG
 VTB Capital AM,Фонд Металлургии,VTBMTL
@@ -67,3 +67,4 @@ VTB Capital AM,Фонд денежного рынка,VTBMM
 VTB Capital AM,Фонд драгоценных металлов,VTBPM
 VTB Capital AM,Площадь Победы,VTBPP
 VTB Capital AM,Кузнецкий Мост,VTBKM
+ 
