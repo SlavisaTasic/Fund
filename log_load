@@ -1,0 +1,268 @@
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFBLN.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFBLN, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFBPL.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFBPL, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFBRN.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFBRN, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFCPT.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFCPT, 2017-01-31) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFEUR.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFEUR, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFGLD.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFGLD, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFINF.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFINF, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFLQS.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFLQS, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFMVB.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFMVB, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFRES.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFRES, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFRSR.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFRSR, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFSGR.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFSGR, 2017-01-31) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALFTCH.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALFTCH, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/a/ALRTRD.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(ALRTRD, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFACT.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFACT, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFASIA.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFASIA, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFBLNC.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFBLNC, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFBOND.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFBOND, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFBRIK.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFBRIK, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFCNSM.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFCNSM, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFENRG.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFENRG, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFEURO.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFEURO, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFGOLD.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFGOLD, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFINDS.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFINDS, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFIT.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFIT, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFMMVB.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFMMVB, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFSRCS.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFSRCS, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFSTCK.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFSTCK, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFTRSR.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFTRSR, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/r/RFUSA.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(RFUSA, 2017-02-22) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERAM.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERAM, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERBT.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERBT, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERCS.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERCS, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERDM.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERDM, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERDN.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERDN, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERDR.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERDR, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBEREB.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBEREB, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBEREM.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBEREM, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBEREN.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBEREN, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBEREU.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBEREU, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERFD.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERFD, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERFS.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERFS, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERGD.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERGD, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERIM.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERIM, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERMT.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERMT, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERPT.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERPT, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERRB.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERRB, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/s/SBERTC.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(SBERTC, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBBLN.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBBLN, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBBPL.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBBPL, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 662
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBBRC.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBBRC, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBCS.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBCS, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBENG.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBENG, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBEUR.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBEUR, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBGD.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBGD, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 662
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBGOS.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBGOS, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBKM.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBKM, 2017-01-31) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBLTI.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBLTI, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 662
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBMM.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBMM, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBMTL.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBMTL, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBMVB.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBMVB, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBONG.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBONG, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBPM.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBPM, 2017-01-31) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBPP.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBPP, 2017-02-27) already exists.
+CONTEXT:  COPY pif_quotes, line 2
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBSTK.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBSTK, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBTLC.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBTLC, 2014-07-09) already exists.
+CONTEXT:  COPY pif_quotes, line 653
+/home/ubuntu/Fund/Prices/28.02.2017/v/VTBTRE.quote
+ERROR:  duplicate key value violates unique constraint "pif_quotes_symbol_dt_key"
+DETAIL:  Key (symbol, dt)=(VTBTRE, 2014-06-27) already exists.
+CONTEXT:  COPY pif_quotes, line 661
