@@ -1,6 +1,7 @@
 #!/bin/bash
 
-CurrentDate='date +%d.%m.%Y'
+#CurrentDate='date +%d.%m.%Y'
+CurrentDate='06.02.2017'
 
 for i in $HOME/Fund/Prices/`$CurrentDate`/*/*.quote;
 do

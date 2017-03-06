@@ -184,31 +184,30 @@ BEGIN
 				 FROM PIF_Monthly
 				WHERE symbol = NEW.symbol
 				  AND mnth = date(date_trunc('month', NEW.dt)))
-	then UPDATE PIF_Monthly SET
-			symbol = sub.symbol,
-			mnth = sub.mnth,
-			open_date = sub.open_date,
-			open_price = sub.open_price,
-			close_date = sub.close_date,
-			close_price	= sub.close_price,	
-			return = sub.return
-		   FROM PIF_Get_Monthly(NEW.symbol, NEW.dt) AS sub;
-	else INSERT INTO PIF_Monthly
-		 SELECT
-		 	symbol = sub.symbol,
-			mnth = sub.mnth,
-			open_date = sub.open_date,
-			open_price = sub.open_price,
-			close_date = sub.close_date,
-			close_price	= sub.close_price,	
-			return = sub.return
-		   FROM PIF_Get_Monthly(NEW.symbol, NEW.dt) AS sub;
+	then UPDATE PIF_Monthly SET (symbol,
+			mnth,
+			open_date,
+			open_price,
+			close_date,
+			close_price,	
+			return ) = (SELECT * FROM PIF_Get_Monthly(NEW.symbol, NEW.dt))
+		  WHERE symbol = NEW.symbol
+		    AND mnth = date(date_trunc('month', NEW.dt));
+	else INSERT INTO PIF_Monthly (symbol,
+			mnth,
+			open_date,
+			open_price,
+			close_date,
+			close_price,	
+			return )
+		 SELECT *
+		   FROM PIF_Get_Monthly(NEW.symbol, NEW.dt);
 	end if;
 	return NEW;
 END; $$
 LANGUAGE plpgsql;
 
 CREATE TRIGGER PIF_Trigger_Monthly AFTER INSERT
-    ON pif_quotes
+    ON PIF_quotes
        FOR EACH ROW
        EXECUTE PROCEDURE PIF_Update_Monthly();
