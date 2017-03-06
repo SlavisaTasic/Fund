@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#CurrentDate='date +%d.%m.%Y'
-CurrentDate='06.03.2017'
+CurrentDate='date +%d.%m.%Y'
 
-for i in $HOME/Fund/Prices/`$CurrentDate`/*/*.quote;
+#for i in $HOME/Fund/Prices/`$CurrentDate`/*/*.quote;
+for i in $HOME/Fund/Prices/06.03.2017/*/*.quote;
 do
 	echo "$i"
   	psql \
