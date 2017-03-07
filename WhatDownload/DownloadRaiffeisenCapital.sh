@@ -1,12 +1,12 @@
 #!/bin/bash
 # Raiffeisen Capital
 
-while getopts f:t: option
+while getopts f:d: option
 do
         case "${option}"
         in
                 f) From=${OPTARG};;
-                l) To=${OPTARG};;
+                d) To=${OPTARG};;
         esac
 done
 

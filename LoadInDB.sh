@@ -1,7 +1,14 @@
 #!/bin/bash
 
-CurrentDate='date +%d.%m.%Y'
-Date=CurrentDate
+while getopts d: option
+do
+        case "${option}"
+        in
+                d) From=${OPTARG};;
+        esac
+done
+
+if [-z "$To"]; then Date='date +%d.%m.%Y'
 
 for i in $HOME/Fund/Prices/`$Date`/*/*.quote;
 do
