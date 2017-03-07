@@ -5,13 +5,13 @@ while getopts f:d: option
 do
         case "${option}"
         in
-                f) From=${OPTARG};;
-                d) To=${OPTARG};;
+                f) From=${OPTARG};; # f as First date
+                d) To=${OPTARG};; # d as Last date
         esac
 done
 
 if [ -z "$From"]; then From='01.01.2013'; fi
-if [-z "$To"]; then To='date +%d.%m.%Y'
+if [ -z "$To"]; then To='date +%d.%m.%Y'; fi
 
 Path=$HOME/Fund/Prices/`$To`/
 URL='http://www.raiffeisen-capital.ru/common/funds/get.php?'

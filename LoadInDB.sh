@@ -4,11 +4,11 @@ while getopts d: option
 do
         case "${option}"
         in
-                d) From=${OPTARG};;
+                d) Date=${OPTARG};; # d as Date
         esac
 done
 
-if [-z "$To"]; then Date='date +%d.%m.%Y'
+if [-z "$Date"]; then Date='date +%d.%m.%Y'; fi
 
 for i in $HOME/Fund/Prices/`$Date`/*/*.quote;
 do
