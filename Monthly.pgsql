@@ -118,6 +118,16 @@ FROM PIFMonthlyPrices;
 
 
 -- trigger --
+
+-- table PIF_Monthly
+-- stores PIFs monthly open and close prices
+-- and monthly return
+-- table:
+-- mnth_id | symbol | mnth | open_date | open_price | close_date | close_price | return | 
+-- previous_price = OR close_price(date_period-1)
+--                  OR open_price(date_period)
+-- present_price = close_price(date_period)
+-- return = present_price / previous_price - 1
 CREATE TABLE PIF_Monthly (
 	mnth_id		SERIAL,
 	symbol		varchar(6) REFERENCES PIFs,
@@ -130,6 +140,10 @@ CREATE TABLE PIF_Monthly (
 				UNIQUE (symbol, mnth)
 );
 
+
+-- function PIF_Get_Monthly
+-- calculates one row of table PIF_Monthly
+-- from rows PIF_quotes with one symbol and month
 DROP FUNCTION PIF_Get_Monthly(var_smbl varchar, var_mnth date) CASCADE;
 CREATE OR REPLACE FUNCTION PIF_Get_Monthly(var_smbl varchar, var_mnth date)
 	RETURNS TABLE (
@@ -173,10 +187,9 @@ RETURN QUERY
 END; $$
 LANGUAGE plpgsql;
 
-SELECT * FROM PIF_Get_Monthly('ALFMVB', '2006-12-01');
 
-
-
+-- function PIF_Update_Monthly
+-- updates or insertes rows to table PIF_Monthly
 DROP FUNCTION PIF_Update_Monthly() CASCADE;
 CREATE OR REPLACE FUNCTION PIF_Update_Monthly() RETURNS trigger AS $$
 BEGIN
@@ -185,21 +198,22 @@ BEGIN
 				WHERE symbol = NEW.symbol
 				  AND mnth = date(date_trunc('month', NEW.dt)))
 	then UPDATE PIF_Monthly SET (symbol,
-			mnth,
-			open_date,
-			open_price,
-			close_date,
-			close_price,	
-			return ) = (SELECT * FROM PIF_Get_Monthly(NEW.symbol, NEW.dt))
+								 mnth,
+								 open_date,
+								 open_price,
+								 close_date,
+								 close_price,	
+								 return ) = (SELECT *
+								 			   FROM PIF_Get_Monthly(NEW.symbol, NEW.dt) )
 		  WHERE symbol = NEW.symbol
 		    AND mnth = date(date_trunc('month', NEW.dt));
 	else INSERT INTO PIF_Monthly (symbol,
-			mnth,
-			open_date,
-			open_price,
-			close_date,
-			close_price,	
-			return )
+								  mnth,
+								  open_date,
+								  open_price,
+								  close_date,
+								  close_price,	
+								  return )
 		 SELECT *
 		   FROM PIF_Get_Monthly(NEW.symbol, NEW.dt);
 	end if;
@@ -207,7 +221,35 @@ BEGIN
 END; $$
 LANGUAGE plpgsql;
 
+-- trigger PIF_Trigger_Monthly
+-- watches for inserted rows to table PIF_quotes
+-- and keeps PIF_Monthly up-to-date
 CREATE TRIGGER PIF_Trigger_Monthly AFTER INSERT
     ON PIF_quotes
        FOR EACH ROW
        EXECUTE PROCEDURE PIF_Update_Monthly();
+	   
+-- function PIF_quotes_Insert
+CREATE OR REPLACE FUNCTION PIF_quotes_Insert() RETURNS trigger AS $$
+BEGIN
+	if NOT EXISTS (SELECT symbol, dt
+					 FROM PIF_quotes
+				    WHERE symbol = NEW.symbol
+					  AND dt = NEW.dt)
+	then INSERT INTO PIF_quotes (symbol,
+								 dt,
+								 price,
+								 NAV)
+				VALUES (NEW.*);
+	end if;
+END; $$
+LANGUAGE plpgsql;
+
+-- trigger PIF_Trigger_Insert
+CREATE TRIGGER PIF_Trigger_Insert INSTEAD OF INSERT
+	ON PIF_quotes
+	   FOR EACH ROW
+	   EXECUTE PROCEDURE PIF_quotes_Insert();
+	   
+	   
+	   

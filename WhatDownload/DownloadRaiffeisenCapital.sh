@@ -1,10 +1,18 @@
 #!/bin/bash
 # Raiffeisen Capital
 
-# 01.01.2013
-From='01.01.2013'
-# current date
-To='date +%d.%m.%Y'
+while getopts f:t: option
+do
+        case "${option}"
+        in
+                f) From=${OPTARG};;
+                l) To=${OPTARG};;
+        esac
+done
+
+if [ -z "$From"]; then From='01.01.2013'; fi
+if [-z "$To"]; then To='date +%d.%m.%Y'
+
 Path=$HOME/Fund/Prices/`$To`/
 URL='http://www.raiffeisen-capital.ru/common/funds/get.php?'
 

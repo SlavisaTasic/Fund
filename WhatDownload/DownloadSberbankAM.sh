@@ -1,10 +1,18 @@
 #!/bin/bash
 # Sberbank AM
 
-# 01.01.2013
-From='01.01.2013'
-# current date
-To='date +%d.%m.%Y'
+while getopts f:t: option
+do
+        case "${option}"
+        in
+                f) From=${OPTARG};;
+                l) To=${OPTARG};;
+        esac
+done
+
+if [ -z "$From"]; then From='01.01.2013'; fi
+if [-z "$To"]; then To='date +%d.%m.%Y'
+
 Path=$HOME/Fund/Prices/`$To`/
 URL='https://www.sberbank-am.ru/individuals/fund/'
 
@@ -48,4 +56,4 @@ curl \
 	--url $URL'opif-fondov-sberbank-zoloto/?ACTION=export&date_from=01.01.2013&date_to=${To}' \
 	--output $Path'/s/18_SBERGD.html' \
 	--url $URL'opif-fondov-sberbank-biotekhnologii/?ACTION=export&date_from=25.05.2015&date_to=${To}' \
-	--output $Path'/s/19_SBERBT.html' \
+	--output $Path'/s/19_SBERBT.html'
