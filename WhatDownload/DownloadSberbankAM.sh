@@ -42,7 +42,7 @@ curl \
 	--url $URL'opif-aktsiy-sberbank-fond-aktivnogo-upravleniya/?ACTION=export&date_from=01.01.2013&date_to=${To}' \
 	--output $Path'/s/11_SBERAM.html' \
 	--url $URL'opif-aktsiy-sberbank-globalnyy-internet/?ACTION=export&date_from=01.01.2013&date_to=${To}' \
-	--output $Path'/s/12_SBERAM.html' \
+	--output $Path'/s/12_SBERGI.html' \
 	--url $URL'opif-smeshannykh-investitsiy-sberbank-fond-sbalans/?ACTION=export&date_from=01.01.2013&date_to=${To}' \
 	--output $Path'/s/13_SBERDR.html' \
 	--url $URL'opif-fondov-sberbank-amerika/?ACTION=export&date_from=01.01.2013&date_to=${To}' \

@@ -54,6 +54,7 @@ GetQuotes <- function(file.full){
   quotes <- data.frame(symbol, dates, prices, NAV)
   # delete rows with NA
   quotes <- quotes[rowSums(is.na(quotes)) == 0,]
+  quotes <- unique(quotes)
   write.table(quotes[order(-as.numeric(dates)),],
               file = paste(file.path,
                            '/',
