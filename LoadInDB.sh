@@ -29,6 +29,6 @@ do
 		-c "INSERT INTO PIF_quotes (symbol, dt, price, NAV)
 			SELECT *
 			  FROM tmp
-			    ON CONFLICT DO NOTHING"
+			    ON CONFLICT DO NOTHING" \
 		-c "DROP TABLE tmp"
 done
