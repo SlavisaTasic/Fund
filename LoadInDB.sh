@@ -30,4 +30,5 @@ do
 			SELECT *
 			  FROM tmp
 			    ON CONFLICT DO NOTHING"
+		-c "DROP TABLE tmp"
 done
