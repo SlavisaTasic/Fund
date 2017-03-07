@@ -10,8 +10,8 @@ do
         esac
 done
 
-if [ -z "$From"]; then From='01.01.2013'; fi
-if [ -z "$To"]; then To=`date +%d.%m.%Y`; fi
+if [ -z "$From" ]; then From='01.01.2013'; fi
+if [ -z "$To" ]; then To=`date +%d.%m.%Y`; fi
 
 Path=$HOME/Fund/Prices/$To/
 URL='https://www.sberbank-am.ru/individuals/fund/'

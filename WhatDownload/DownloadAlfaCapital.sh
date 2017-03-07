@@ -10,7 +10,7 @@ do
         esac
 done
 
-if [ -z "$To"]; then To='date +%d.%m.%Y'; fi
+if [ -z "$To" ]; then To='date +%d.%m.%Y'; fi
 
 Path=$HOME/Fund/Prices/`$To`/
 URL='https://www.alfacapital.ru/individual/pifs/'
