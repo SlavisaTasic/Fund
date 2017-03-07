@@ -8,9 +8,9 @@ do
         esac
 done
 
-if [-z "$Date"]; then Date='date +%d.%m.%Y'; fi
+if [-z "$Date"]; then Date=`date +%d.%m.%Y`; fi
 
-for i in $HOME/Fund/Prices/`$Date`/*/*.quote;
+for i in $HOME/Fund/Prices/$Date/*/*.quote;
 do
 	echo "$i"
   	psql \
