@@ -1,136 +1,340 @@
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFBLN.quote
-COPY 2681
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFBPL.quote
-COPY 3435
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFBRN.quote
-COPY 2360
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFCPT.quote
-COPY 217
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFEUR.quote
-COPY 2833
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFGLD.quote
-COPY 2348
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFINF.quote
-COPY 2522
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFLQS.quote
-COPY 2830
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFMVB.quote
-COPY 2523
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFRES.quote
-COPY 2522
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFRSR.quote
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFBLN.quote
+CREATE TABLE
+COPY 2682
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFBPL.quote
+CREATE TABLE
 COPY 3436
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFSGR.quote
-COPY 160
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALFTCH.quote
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFBRN.quote
+CREATE TABLE
+COPY 2361
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFEUR.quote
+CREATE TABLE
+COPY 2834
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFGLD.quote
+CREATE TABLE
+COPY 2349
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFINF.quote
+CREATE TABLE
 COPY 2523
-/home/ubuntu/Fund/Prices/06.03.2017/a/ALRTRD.quote
-COPY 2360
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFACT.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFASIA.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFBLNC.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFBOND.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFBRIK.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFCNSM.quote
-COPY 1022
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFENRG.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFEURO.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFGOLD.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFINDS.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFIT.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFMMVB.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFSRCS.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFSTCK.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFTRSR.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/r/RFUSA.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERAM.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERBT.quote
-COPY 442
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERCS.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERDM.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERDN.quote
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFLQS.quote
+CREATE TABLE
+COPY 2831
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFMVB.quote
+CREATE TABLE
+COPY 2524
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFRES.quote
+CREATE TABLE
+COPY 2523
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFRSR.quote
+CREATE TABLE
+COPY 3437
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALFTCH.quote
+CREATE TABLE
+COPY 2524
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/a/ALRTRD.quote
+CREATE TABLE
+COPY 2361
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFACT.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFASIA.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFBLNC.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFBOND.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFBRIK.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFCNSM.quote
+CREATE TABLE
+COPY 1023
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFENRG.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFEURO.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFGOLD.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFINDS.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFIT.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFMMVB.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFSRCS.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFSTCK.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFTRSR.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/r/RFUSA.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERAM.quote
+CREATE TABLE
 COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERDR.quote
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERBT.quote
+CREATE TABLE
+COPY 443
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERCS.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERDM.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERDN.quote
+CREATE TABLE
+COPY 1026
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERDR.quote
+CREATE TABLE
+COPY 1026
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBEREB.quote
+CREATE TABLE
+COPY 958
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBEREM.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBEREN.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBEREU.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERFD.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERFS.quote
+CREATE TABLE
 COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBEREB.quote
-COPY 957
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBEREM.quote
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERGD.quote
+CREATE TABLE
+COPY 632
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERGI.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERIM.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERMT.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBEREN.quote
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERPT.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERRB.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/s/SBERTC.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBEREU.quote
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBBLN.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERFD.quote
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBBPL.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 1027
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBBRC.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERFS.quote
-COPY 1024
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERGD.quote
-COPY 631
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERGI.quote
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBCS.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERIM.quote
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBENG.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERMT.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERPT.quote
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBEUR.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 1027
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBGD.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 1027
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBGOS.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERRB.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/s/SBERTC.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBBLN.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBBPL.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBBRC.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBCS.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBENG.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBEUR.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBGD.quote
-COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBGOS.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBKM.quote
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBKM.quote
+CREATE TABLE
 COPY 66
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBLTI.quote
+INSERT 0 66
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBLTI.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 1027
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBMM.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 1027
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBMTL.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBMM.quote
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBMVB.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBMTL.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBMVB.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBONG.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBPM.quote
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBONG.quote
+CREATE TABLE
+COPY 1026
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBPM.quote
+CREATE TABLE
 COPY 67
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBPP.quote
+INSERT 0 67
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBPP.quote
+CREATE TABLE
+COPY 1027
+INSERT 0 1027
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBSTK.quote
+CREATE TABLE
 COPY 1026
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBSTK.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBTLC.quote
-COPY 1025
-/home/ubuntu/Fund/Prices/06.03.2017/v/VTBTRE.quote
-COPY 1025
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBTLC.quote
+CREATE TABLE
+COPY 1026
+INSERT 0 1026
+DROP TABLE
+/home/ubuntu/Fund/Prices/07.03.2017/v/VTBTRE.quote
+CREATE TABLE
+COPY 1026
+INSERT 0 1026
+DROP TABLE
