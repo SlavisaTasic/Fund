@@ -1,19 +1,26 @@
 #!/bin/bash
 # Raiffeisen Capital
 
-while getopts f:d: option
+while getopts b:e: option
 do
         case "${option}"
         in
-                f) From=${OPTARG};; # f as First date
-                d) To=${OPTARG};; # d as Last date
+                b) BeginDate=${OPTARG};;
+                e) EndDate=${OPTARG};;
         esac
 done
 
-if [ -z "$From" ]; then From='01.01.2013'; fi
-if [ -z "$To" ]; then To=`date +%d.%m.%Y`; fi
+if [ -z "$BeginDate" ]; then BeginDate='01.01.2013'; fi
+if [ -z "$EndDate" ]
+then
+	EndDate=`date -I` # folder name
+	To=`date +%d.%m.%Y` # date for URL
+else
+	To=`date +%d.%m.%Y --date="$EndDate"` # convert date for URL
+fi
 
-Path=$HOME/Fund/Prices/$To/
+InstDir=$HOME/Fund/
+Path=$InstDir/Prices/$EndDate/
 URL='http://www.raiffeisen-capital.ru/common/funds/get.php?'
 
 if [ ! -d $Path/r ]; then mkdir -p $Path/r; fi

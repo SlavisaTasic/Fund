@@ -229,27 +229,3 @@ CREATE TRIGGER PIF_Trigger_Monthly AFTER INSERT
        FOR EACH ROW
        EXECUTE PROCEDURE PIF_Update_Monthly();
 	   
--- function PIF_quotes_Insert
-CREATE OR REPLACE FUNCTION PIF_quotes_Insert() RETURNS trigger AS $$
-BEGIN
-	if NOT EXISTS (SELECT symbol, dt
-					 FROM PIF_quotes
-				    WHERE symbol = NEW.symbol
-					  AND dt = NEW.dt)
-	then INSERT INTO PIF_quotes (symbol,
-								 dt,
-								 price,
-								 NAV)
-				VALUES (NEW.*);
-	end if;
-END; $$
-LANGUAGE plpgsql;
-
--- trigger PIF_Trigger_Insert
-CREATE TRIGGER PIF_Trigger_Insert INSTEAD OF INSERT
-	ON PIF_quotes
-	   FOR EACH ROW
-	   EXECUTE PROCEDURE PIF_quotes_Insert();
-	   
-	   
-	   
