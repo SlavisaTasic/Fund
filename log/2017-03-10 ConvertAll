@@ -1,0 +1,504 @@
+
+R version 3.3.3 (2017-03-06) -- "Another Canoe"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> remove(list=ls())
+> 
+> GetFileList <- function(){
++   Current.folder <- getwd()
++   Folder <- paste('~/Fund/Prices/',
++                   Sys.Date( ),
++                   '/r',
++                   sep='')
++   setwd(Folder)
++   List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
++   for ( file in List.of.files){
++     file.full <- paste('~/Fund/Prices/',
++                        format(Sys.Date( ), format='%d.%m.%Y'),
++                        '/r/', file, sep='')
++     GetQuotes(file.full)
++   }
++ }
+> 
+> GetQuotes <- function(file.full){
++   file.path <- dirname(file.full)
++   # get  from file name
++   file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
++   file.symbol <- substring(file.name.without.ext, 4)
++   # get list of quotes from file
++   quotes.list <- read.csv(file.full, skip = 1, header = F)
++   # get dates, prices and net asset values from list
++   dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
++   prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
++   NAV <- data.matrix(quotes.list[[3]])
++   NAV <- as.numeric(NAV)
++   # make symbol's character vector
++   symbol <- rep(file.symbol, times=length(dates))
++   # make dataframe
++   quotes <- data.frame(symbol, dates, prices, NAV)
++   # delete rows with NA
++   quotes <- quotes[rowSums(is.na(quotes)) == 0,]
++   quotes <- unique(quotes)
++   write.table(quotes[order(-as.numeric(dates)),],
++               file = paste(file.path,
++                            '/',
++                            file.symbol,
++                            '.quote',
++                            sep = ''),
++               sep = ',',
++               row.names = FALSE)
++ }
+> 
+> GetFileList()
+> 
+> 
+Loading required package: methods
+Loading required package: methods
+
+R version 3.3.3 (2017-03-06) -- "Another Canoe"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> remove(list=ls())
+> 
+> GetFileList <- function(){
++   Current.folder <- getwd()
++   Folder <- paste('~/Fund/Prices/',
++                   Sys.Date( ),
++                   '/r',
++                   sep='')
++   setwd(Folder)
++   List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
++   for ( file in List.of.files){
++     file.full <- paste('~/Fund/Prices/',
++                        format(Sys.Date( ), format='%d.%m.%Y'),
++                        '/r/', file, sep='')
++     GetQuotes(file.full)
++   }
++ }
+> 
+> GetQuotes <- function(file.full){
++   file.path <- dirname(file.full)
++   # get  from file name
++   file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
++   file.symbol <- substring(file.name.without.ext, 4)
++   # get list of quotes from file
++   quotes.list <- read.csv(file.full, skip = 1, header = F)
++   # get dates, prices and net asset values from list
++   dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
++   prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
++   NAV <- data.matrix(quotes.list[[3]])
++   NAV <- as.numeric(NAV)
++   # make symbol's character vector
++   symbol <- rep(file.symbol, times=length(dates))
++   # make dataframe
++   quotes <- data.frame(symbol, dates, prices, NAV)
++   # delete rows with NA
++   quotes <- quotes[rowSums(is.na(quotes)) == 0,]
++   quotes <- unique(quotes)
++   write.table(quotes[order(-as.numeric(dates)),],
++               file = paste(file.path,
++                            '/',
++                            file.symbol,
++                            '.quote',
++                            sep = ''),
++               sep = ',',
++               row.names = FALSE)
++ }
+> 
+> GetFileList()
+> 
+> 
+Loading required package: methods
+Loading required package: methods
+
+R version 3.3.3 (2017-03-06) -- "Another Canoe"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> remove(list=ls())
+> 
+> GetFileList <- function(){
++   Current.folder <- getwd()
++   Folder <- paste('~/Fund/Prices/',
++                   Sys.Date( ),
++                   '/r',
++                   sep='')
++   setwd(Folder)
++   List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
++   for ( file in List.of.files){
++     file.full <- paste('~/Fund/Prices/',
++                        format(Sys.Date( ), format='%d.%m.%Y'),
++                        '/r/', file, sep='')
++     GetQuotes(file.full)
++   }
++ }
+> 
+> GetQuotes <- function(file.full){
++   file.path <- dirname(file.full)
++   # get  from file name
++   file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
++   file.symbol <- substring(file.name.without.ext, 4)
++   # get list of quotes from file
++   quotes.list <- read.csv(file.full, skip = 1, header = F)
++   # get dates, prices and net asset values from list
++   dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
++   prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
++   NAV <- data.matrix(quotes.list[[3]])
++   NAV <- as.numeric(NAV)
++   # make symbol's character vector
++   symbol <- rep(file.symbol, times=length(dates))
++   # make dataframe
++   quotes <- data.frame(symbol, dates, prices, NAV)
++   # delete rows with NA
++   quotes <- quotes[rowSums(is.na(quotes)) == 0,]
++   quotes <- unique(quotes)
++   write.table(quotes[order(-as.numeric(dates)),],
++               file = paste(file.path,
++                            '/',
++                            file.symbol,
++                            '.quote',
++                            sep = ''),
++               sep = ',',
++               row.names = FALSE)
++ }
+> 
+> GetFileList()
+> 
+> 
+Loading required package: methods
+Loading required package: methods
+
+R version 3.3.3 (2017-03-06) -- "Another Canoe"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> remove(list=ls())
+> 
+> GetFileList <- function(){
++   Current.folder <- getwd()
++   Folder <- paste('~/Fund/Prices/',
++                   Sys.Date( ),
++                   '/r',
++                   sep='')
++   setwd(Folder)
++   List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
++   for ( file in List.of.files){
++     file.full <- paste('~/Fund/Prices/',
++                        format(Sys.Date( ), format='%d.%m.%Y'),
++                        '/r/', file, sep='')
++     GetQuotes(file.full)
++   }
++ }
+> 
+> GetQuotes <- function(file.full){
++   file.path <- dirname(file.full)
++   # get  from file name
++   file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
++   file.symbol <- substring(file.name.without.ext, 4)
++   # get list of quotes from file
++   quotes.list <- read.csv(file.full, skip = 1, header = F)
++   # get dates, prices and net asset values from list
++   dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
++   prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
++   NAV <- data.matrix(quotes.list[[3]])
++   NAV <- as.numeric(NAV)
++   # make symbol's character vector
++   symbol <- rep(file.symbol, times=length(dates))
++   # make dataframe
++   quotes <- data.frame(symbol, dates, prices, NAV)
++   # delete rows with NA
++   quotes <- quotes[rowSums(is.na(quotes)) == 0,]
++   quotes <- unique(quotes)
++   write.table(quotes[order(-as.numeric(dates)),],
++               file = paste(file.path,
++                            '/',
++                            file.symbol,
++                            '.quote',
++                            sep = ''),
++               sep = ',',
++               row.names = FALSE)
++ }
+> 
+> GetFileList()
+> 
+> 
+Loading required package: methods
+Loading required package: methods
+
+R version 3.3.3 (2017-03-06) -- "Another Canoe"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> remove(list=ls())
+> 
+> GetFileList <- function(){
++   Current.folder <- getwd()
++   Folder <- paste('~/Fund/Prices/',
++                   Sys.Date( ),
++                   '/r',
++                   sep='')
++   setwd(Folder)
++   List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
++   for ( file in List.of.files){
++     file.full <- paste('~/Fund/Prices/',
++                        format(Sys.Date( ), format='%d.%m.%Y'),
++                        '/r/', file, sep='')
++     GetQuotes(file.full)
++   }
++ }
+> 
+> GetQuotes <- function(file.full){
++   file.path <- dirname(file.full)
++   # get  from file name
++   file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
++   file.symbol <- substring(file.name.without.ext, 4)
++   # get list of quotes from file
++   quotes.list <- read.csv(file.full, skip = 1, header = F)
++   # get dates, prices and net asset values from list
++   dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
++   prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
++   NAV <- data.matrix(quotes.list[[3]])
++   NAV <- as.numeric(NAV)
++   # make symbol's character vector
++   symbol <- rep(file.symbol, times=length(dates))
++   # make dataframe
++   quotes <- data.frame(symbol, dates, prices, NAV)
++   # delete rows with NA
++   quotes <- quotes[rowSums(is.na(quotes)) == 0,]
++   quotes <- unique(quotes)
++   write.table(quotes[order(-as.numeric(dates)),],
++               file = paste(file.path,
++                            '/',
++                            file.symbol,
++                            '.quote',
++                            sep = ''),
++               sep = ',',
++               row.names = FALSE)
++ }
+> 
+> GetFileList()
+> 
+> 
+Loading required package: methods
+Loading required package: methods
+
+R version 3.3.3 (2017-03-06) -- "Another Canoe"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> remove(list=ls())
+> 
+> GetFileList <- function(){
++   Current.folder <- getwd()
++   Folder <- paste('~/Fund/Prices/',
++                   Sys.Date( ),
++                   '/r',
++                   sep='')
++   setwd(Folder)
++   List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
++   for ( file in List.of.files){
++     file.full <- paste('~/Fund/Prices/',
++                        format(Sys.Date( ), format='%d.%m.%Y'),
++                        '/r/', file, sep='')
++     GetQuotes(file.full)
++   }
++ }
+> 
+> GetQuotes <- function(file.full){
++   file.path <- dirname(file.full)
++   # get  from file name
++   file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
++   file.symbol <- substring(file.name.without.ext, 4)
++   # get list of quotes from file
++   quotes.list <- read.csv(file.full, skip = 1, header = F)
++   # get dates, prices and net asset values from list
++   dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
++   prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
++   NAV <- data.matrix(quotes.list[[3]])
++   NAV <- as.numeric(NAV)
++   # make symbol's character vector
++   symbol <- rep(file.symbol, times=length(dates))
++   # make dataframe
++   quotes <- data.frame(symbol, dates, prices, NAV)
++   # delete rows with NA
++   quotes <- quotes[rowSums(is.na(quotes)) == 0,]
++   quotes <- unique(quotes)
++   write.table(quotes[order(-as.numeric(dates)),],
++               file = paste(file.path,
++                            '/',
++                            file.symbol,
++                            '.quote',
++                            sep = ''),
++               sep = ',',
++               row.names = FALSE)
++ }
+> 
+> GetFileList()
+> 
+> 
+Loading required package: methods
+Loading required package: methods
+
+R version 3.3.3 (2017-03-06) -- "Another Canoe"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+> remove(list=ls())
+> 
+> GetFileList <- function(){
++   Current.folder <- getwd()
++   Folder <- paste('~/Fund/Prices/',
++                   Sys.Date( ),
++                   '/r',
++                   sep='')
++   setwd(Folder)
++   List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
++   for ( file in List.of.files){
++     file.full <- paste('~/Fund/Prices/',
++                        format(Sys.Date( ), format='%d.%m.%Y'),
++                        '/r/', file, sep='')
++     GetQuotes(file.full)
++   }
++ }
+> 
+> GetQuotes <- function(file.full){
++   file.path <- dirname(file.full)
++   # get  from file name
++   file.name.without.ext <- tools::file_path_sans_ext(basename(file.full))
++   file.symbol <- substring(file.name.without.ext, 4)
++   # get list of quotes from file
++   quotes.list <- read.csv(file.full, skip = 1, header = F)
++   # get dates, prices and net asset values from list
++   dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
++   prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
++   NAV <- data.matrix(quotes.list[[3]])
++   NAV <- as.numeric(NAV)
++   # make symbol's character vector
++   symbol <- rep(file.symbol, times=length(dates))
++   # make dataframe
++   quotes <- data.frame(symbol, dates, prices, NAV)
++   # delete rows with NA
++   quotes <- quotes[rowSums(is.na(quotes)) == 0,]
++   quotes <- unique(quotes)
++   write.table(quotes[order(-as.numeric(dates)),],
++               file = paste(file.path,
++                            '/',
++                            file.symbol,
++                            '.quote',
++                            sep = ''),
++               sep = ',',
++               row.names = FALSE)
++ }
+> 
+> GetFileList()
+> 
+> 
+Loading required package: methods
+Loading required package: methods

@@ -8,7 +8,7 @@ do
         esac
 done
 
-if [ -z "$Date" ]; then Date=`date +%d.%m.%Y`; fi
+if [ -z "$Date" ]; then Date=`date -I`; fi
 
 for i in $HOME/Fund/Prices/$Date/*/*.quote;
 do

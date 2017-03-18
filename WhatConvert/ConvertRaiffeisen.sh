@@ -1,7 +1,7 @@
 #!/bin/bash
 #Converting Raiffeisen PIFs prices from HTML to CSV
 
-CurrentDate='date +%d.%m.%Y'
+CurrentDate='date -I'
 
 for i in $HOME/Fund/Prices/`$CurrentDate`/r/*.html;
 do
@@ -23,14 +23,14 @@ remove(list=ls())
 GetFileList <- function(){
   Current.folder <- getwd()
   Folder <- paste('~/Fund/Prices/',
-                  format(Sys.Date( ), format='%d.%m.%Y'),
+                  Sys.Date( ),
                   '/r',
                   sep='')
   setwd(Folder)
   List.of.files <- list.files(pattern = '*.csv', recursive = TRUE)
   for ( file in List.of.files){
     file.full <- paste('~/Fund/Prices/',
-                       format(Sys.Date( ), format='%d.%m.%Y'),
+                       Sys.Date( ),
                        '/r/', file, sep='')
     GetQuotes(file.full)
   }

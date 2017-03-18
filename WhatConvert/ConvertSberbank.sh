@@ -8,14 +8,14 @@ library(XML)
 GetFileList <- function(){
   Current.folder <- getwd()
   Folder <- paste('~/Fund/Prices/',
-                  format(Sys.Date( ), format='%d.%m.%Y'),
+                  Sys.Date( ),
                   '/s',
                   sep='')
   setwd(Folder)
   List.of.files <- list.files(pattern = '*.html', recursive = TRUE)
   for ( file in List.of.files){
     file.full <- paste('~/Fund/Prices/',
-                       format(Sys.Date( ), format='%d.%m.%Y'),
+                       Sys.Date( ),
                        '/s/', file, sep='')
     GetQuotes(file.full)
   }
