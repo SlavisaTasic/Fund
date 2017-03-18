@@ -160,16 +160,18 @@ BEGIN
 RETURN QUERY
 	WITH PIF_Monthly_Prices AS (
 		SELECT DISTINCT ON (2)
-			p.symbol					  AS "Symbol",
-			date(date_trunc('month', dt)) AS "Month",
-			first_value(dt)    OVER w 	  AS "Open Date",
-			first_value(price) OVER w 	  AS "Open Price",
-			last_value(dt) 	   OVER w	  AS "Close Date",
-			last_value(price)  OVER w	  AS "Close Price"
+			p.symbol						AS "Symbol",
+			date(date_trunc('month', p.dt)) AS "Month",
+			first_value(p.dt)    OVER w 	AS "Open Date",
+			first_value(p.price) OVER w 	AS "Open Price",
+			last_value(p.dt) 	 OVER w		AS "Close Date",
+			last_value(p.price)  OVER w		AS "Close Price"
 		  FROM PIF_quotes p
 		 WHERE p.symbol = var_smbl ---'ALFMVB'
-		   AND date_trunc('month', p.dt) = date_trunc('month', var_mnth)
-		WINDOW w AS (PARTITION BY date_trunc('month', dt) ORDER BY dt
+		   AND date_trunc('month', p.dt) 
+		       BETWEEN date_trunc('month', var_mnth) - interval '1 month'
+		    	   AND date_trunc('month', var_mnth)
+		WINDOW w AS (PARTITION BY date_trunc('month', p.dt) ORDER BY p.dt
 					 RANGE BETWEEN UNBOUNDED PRECEDING
 							  AND UNBOUNDED FOLLOWING)
 		 ORDER BY 2
@@ -183,7 +185,9 @@ RETURN QUERY
 					   "Open Price"
 					   ) - 1,
 			  12)	AS "Return"
-	FROM PIF_Monthly_Prices;
+	FROM PIF_Monthly_Prices
+	ORDER BY "Month" DESC
+	LIMIT 1;
 END; $$
 LANGUAGE plpgsql;
 
