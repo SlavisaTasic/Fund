@@ -8,14 +8,14 @@ library(readxl)
 GetFileList <- function(){
   Current.folder <- getwd()
   Folder <- paste('~/Fund/Prices/',
-                  format(Sys.Date( ), format='%d.%m.%Y'),
+                  Sys.Date( ),
                   '/a',
                   sep='')
   setwd(Folder)
   List.of.files <- list.files(pattern = '*.xls', recursive = TRUE)
   for ( file in List.of.files){
     file.full <- paste('~/Fund/Prices/',
-                       format(Sys.Date( ), format='%d.%m.%Y'),
+                       Sys.Date( ),
                        '/a/', file, sep='')
     GetQuotes(file.full)
   }
