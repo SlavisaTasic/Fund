@@ -10,7 +10,7 @@ ConnectToSecurities <- function(){
   drv <- dbDriver("PostgreSQL")
   con <- dbConnect(drv, dbname = "Securities",
                    host = "securities.cmcdafitdhnz.us-west-2.rds.amazonaws.com",
-                   port = "5432", user = "master", password = "RDS.1DB.1SQL")
+                   port = "5432", user = "master", password = "***")
   return(con)
 }
 
