@@ -1,3 +1,95 @@
+-- from file db 
+-- SET datestyle = German;
+\copy pif_quotes(symbol, dt, price, NAV) FROM 'Fund/Prices/28.02.2017/*/*.quote' CSV HEADER 
+
+SELECT 
+    dt, 
+    (price / (LAG(price) OVER (ORDER BY dt))) -1 AS return
+FROM
+    pif_quotes
+WHERE symbol="ALFCPT";
+
+--- Year Close Prices and Returns
+WITH PriceYearly
+AS
+(SELECT
+	    date_part("year", dt) AS year,
+	    symbol,
+	    price AS close
+   FROM pif_quotes 
+  WHERE symbol="ALFCPT"
+    AND dt IN (
+		--get last pricedate of each period
+		  SELECT MAX(dt) as a 
+			FROM pif_quotes
+		GROUP BY date_part("year",dt)
+		)
+)
+SELECT
+	year,
+	symbol,
+	close,
+	round((close/(LAG(close) OVER (ORDER BY year))) - 1, 6) AS return
+  FROM PriceYearly;
+
+
+-- table:
+-- date_period | symbol | previous_price | present_price | 
+-- previous_price = OR last_price(date_period-1)
+--                  OR first_prie(date_period)
+-- present_price = last_price(date_period)
+-- should be convert to:
+-- date_period | symbol | present_price | present_price/previous_price - 1 | 
+
+
+-- Monthly Returns
+WITH PriceMonthly
+AS (
+SELECT row_number() OVER (ORDER BY dt) AS period,
+	   price,
+	   date_part('year', dt) AS year,
+	   date_part('month', dt) AS month
+  FROM pif_quotes
+ WHERE dt IN (
+      --get last pricedate of each period
+      SELECT MAX(dt) as a 
+        FROM pif_quotes
+    GROUP BY date_part('year', dt), date_part('month', dt)
+      )
+   AND symbol='ALFCPT'
+)
+SELECT year, month,
+	   price AS "Close",
+	   round((price/(LAG(price) OVER (ORDER BY year, month)))-1, 6) AS "Monthly"
+  FROM PriceMonthly
+ WHERE year >= 2016;
+
+-- Weekly Returns
+WITH PriceWeekly
+AS (
+SELECT row_number() OVER (ORDER BY dt) AS period,
+	   price,
+	   date_part('year', dt) AS year,
+	   date_part('week', dt) AS week
+  FROM pif_quotes 
+ WHERE dt IN (
+			--get last pricedate of each period
+			SELECT MAX(dt) as a
+			FROM pif_quotes
+			WHERE date_part('week', dt) < 53
+			GROUP BY date_part('year', dt), date_part('week', dt)
+			)
+   AND symbol='ALFMVB'
+)
+SELECT year, week,
+	   round((price/(LAG(price) OVER (ORDER BY year, week)))-1, 4) as "Weekly",
+	   price AS "Close"
+  FROM PriceWeekly
+ WHERE year >=2010
+ ORDER BY year, week DESC;
+
+
+
 -- Monthly Returns
 
 -- CTE, 68 ms

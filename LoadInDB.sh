@@ -16,7 +16,7 @@ do
   	psql \
 	    -h securities.cmcdafitdhnz.us-west-2.rds.amazonaws.com \
 		-p 5432 \
-		-U master \
+		-U loadin \
 		-w \
 		-d Securities \
 		-c "CREATE TEMP TABLE tmp (
