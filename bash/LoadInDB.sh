@@ -10,7 +10,10 @@ done
 
 if [ -z "$Date" ]; then Date=`date -I`; fi
 
-for i in $HOME/Fund/Prices/$Date/*/*.quote;
+InstDir=$HOME/Fund/
+
+
+for i in $InstDir/Prices/$Date/*/*.quote;
 do
 	echo "$i"
   	psql \

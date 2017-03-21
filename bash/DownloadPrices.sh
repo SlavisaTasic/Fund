@@ -20,8 +20,7 @@ fi
 
 InstDir=$HOME/Fund/
 
-
-for i in $InstDir/WhatConvert/*.sh;
+for i in $InstDir/bash/WhatDownload/*.sh;
 do
-	"$i"
+	"$i" -b $BeginDate -e $EndDate
 done

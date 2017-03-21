@@ -3,7 +3,9 @@
 
 CurrentDate='date -I'
 
-for i in $HOME/Fund/Prices/`$CurrentDate`/r/*.html;
+InstDir=$HOME/Fund/
+
+for i in $InstDir/Prices/`$CurrentDate`/r/*.html;
 do
  	Path=$(dirname $i);
  	FullName=$(basename $i);
@@ -12,7 +14,7 @@ do
  	sed -i 's/^.*<content>//g' $Path/$NameWithoutExt".csv";
  	sed -i 's/<\/content>//g' $Path/$NameWithoutExt".csv";
 #	sed 's/(?<=\d)/\n/g' "$i" > $Path/$NameWithoutExt".csv";
- 	awk -f $HOME/Fund/WhatConvert/command.awk $Path/$NameWithoutExt".csv" > $Path/$NameWithoutExt".tmp";
+ 	awk -f $InstDir/bash/WhatConvert/command.awk $Path/$NameWithoutExt".csv" > $Path/$NameWithoutExt".tmp";
  	mv $Path/$NameWithoutExt".tmp" $Path/$NameWithoutExt".csv";
 done
 

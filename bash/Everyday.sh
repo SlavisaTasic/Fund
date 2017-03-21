@@ -20,8 +20,6 @@ fi
 
 InstDir=$HOME/Fund/
 
-$InstDir/DownloadPrices.sh -b $BeginDate -e $EndDate >> $InstDir/log/$EndDate" DownloadPrices" 2>&1
-$InstDir/ConvertAll.sh -b $BeginDate -e $EndDate     >> $InstDir/log/$EndDate" ConvertAll" 2>&1
-$InstDir/LoadInDB.sh -d $EndDate                     >> $InstDir/log/$EndDate" LoadInDB" 2>&1
-
-#$InstDir/R/Portfolio/GetMonthlyReturns.R
+$InstDir/bash/DownloadPrices.sh -b $BeginDate -e $EndDate >> $InstDir/log/$EndDate" DownloadPrices" 2>&1
+$InstDir/bash/ConvertAll.sh -b $BeginDate -e $EndDate     >> $InstDir/log/$EndDate" ConvertAll" 2>&1
+$InstDir/bash/LoadInDB.sh -d $EndDate                     >> $InstDir/log/$EndDate" LoadInDB" 2>&1
