@@ -4418,3 +4418,3403 @@ CREATE TABLE
 COPY 1035
 INSERT 0 1
 DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 1
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+INSERT 0 0
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund/Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBLN.quote
+CREATE TABLE
+COPY 2691
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBPL.quote
+CREATE TABLE
+COPY 3445
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFBRN.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFCPT.quote
+CREATE TABLE
+COPY 217
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFEUR.quote
+CREATE TABLE
+COPY 2843
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFGLD.quote
+CREATE TABLE
+COPY 2358
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFINF.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFLQS.quote
+CREATE TABLE
+COPY 2840
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFMVB.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRES.quote
+CREATE TABLE
+COPY 2532
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFRSR.quote
+CREATE TABLE
+COPY 3446
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFSGR.quote
+CREATE TABLE
+COPY 160
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALFTCH.quote
+CREATE TABLE
+COPY 2533
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/a/ALRTRD.quote
+CREATE TABLE
+COPY 2370
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFACT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFASIA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBLNC.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBOND.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFBRIK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFCNSM.quote
+CREATE TABLE
+COPY 1032
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFENRG.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFEURO.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFGOLD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFINDS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFIT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFMMVB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSRCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFSTCK.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFTRSR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/r/RFUSA.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERAM.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERBT.quote
+CREATE TABLE
+COPY 452
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERCS.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERDR.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREB.quote
+CREATE TABLE
+COPY 967
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREN.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBEREU.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERFS.quote
+CREATE TABLE
+COPY 1034
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGD.quote
+CREATE TABLE
+COPY 641
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERGI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERIM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERMT.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERPT.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERRB.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/s/SBERTC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBLN.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBPL.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBBRC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBCS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBENG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBEUR.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGD.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBGOS.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBKM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBLTI.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMM.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMTL.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBMVB.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBONG.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPM.quote
+CREATE TABLE
+COPY 67
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBPP.quote
+CREATE TABLE
+COPY 1036
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBSTK.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTLC.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
+/home/ubuntu/Fund//Prices/2017-03-21/v/VTBTRE.quote
+CREATE TABLE
+COPY 1035
+ERROR:  permission denied for sequence pif_quotes_quote_id_seq
+DROP TABLE
