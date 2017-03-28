@@ -13,28 +13,6 @@ function monthlyReturns = loadMonthlyReturns(varargin)
 	monthlyReturns = loadAllSymbols(list, 'firstMonth', firstMonth, 'lastMonth', lastMonth);
 end
 
-
-function conn = estimateConnection()
-% ESTIMATECONNECTION Estimates connection to Securities database
-	conn = database('Securities', 'loadout', 'RDS.1PostgreSQL.1LoadOut', ...
-					'Vendor','PostgreSQL', ...
-					'Server', 'securities.cmcdafitdhnz.us-west-2.rds.amazonaws.com', ...
-					'PortNumber', 5432);
-end
-
-function listSymbols = loadSymbols
-% LOADSYMBOLS Loads list of all symbols
-	conn = estimateConnection;
-	query = 'SELECT DISTINCT symbol FROM PIFs WHERE type=''open-end'' ORDER BY symbol;';
-	setdbprefs('DataReturnFormat','table');
-	curs = exec(conn, query);
-	curs = fetch(curs);
-	listSymbols = curs.Data;
-	listSymbols = listSymbols.symbol;
-	close(curs)
-	close(conn)
-end
-
 function oneSymbol = loadOneSymbol(symbol, varargin)
 % LOADONESYMBOL Loads monthly returns of one symbol
 	p = inputParser;

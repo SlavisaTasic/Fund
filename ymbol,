@@ -1,0 +1,68 @@
+       issuer       | symbol | case 
+--------------------+--------+------
+ Alfa Capital       | ALFBLN |    1
+ Alfa Capital       | ALFBPL |    1
+ Alfa Capital       | ALFBRN |    1
+ Alfa Capital       | ALFEUR |    1
+ Alfa Capital       | ALFGLD |    1
+ Alfa Capital       | ALFINF |    1
+ Alfa Capital       | ALFLQS |    1
+ Alfa Capital       | ALFMVB |    1
+ Alfa Capital       | ALFRES |    1
+ Alfa Capital       | ALFRSR |    1
+ Alfa Capital       | ALFTCH |    1
+ Alfa Capital       | ALRTRD |    1
+ Raiffeisen Capital | RFACT  |    0
+ Raiffeisen Capital | RFASIA |    0
+ Raiffeisen Capital | RFBLNC |    0
+ Raiffeisen Capital | RFBOND |    0
+ Raiffeisen Capital | RFBRIK |    0
+ Raiffeisen Capital | RFCNSM |    0
+ Raiffeisen Capital | RFENRG |    0
+ Raiffeisen Capital | RFEURO |    0
+ Raiffeisen Capital | RFGOLD |    0
+ Raiffeisen Capital | RFINDS |    0
+ Raiffeisen Capital | RFIT   |    0
+ Raiffeisen Capital | RFMMVB |    0
+ Raiffeisen Capital | RFSRCS |    0
+ Raiffeisen Capital | RFSTCK |    0
+ Raiffeisen Capital | RFTRSR |    0
+ Raiffeisen Capital | RFUSA  |    0
+ Sberbank AM        | SBERAM |    0
+ Sberbank AM        | SBERBT |    0
+ Sberbank AM        | SBERCS |    0
+ Sberbank AM        | SBERDM |    0
+ Sberbank AM        | SBERDN |    0
+ Sberbank AM        | SBERDR |    0
+ Sberbank AM        | SBEREB |    0
+ Sberbank AM        | SBEREM |    0
+ Sberbank AM        | SBEREN |    0
+ Sberbank AM        | SBEREU |    0
+ Sberbank AM        | SBERFD |    0
+ Sberbank AM        | SBERFS |    0
+ Sberbank AM        | SBERGD |    0
+ Sberbank AM        | SBERGI |    0
+ Sberbank AM        | SBERIM |    0
+ Sberbank AM        | SBERMT |    0
+ Sberbank AM        | SBERPT |    0
+ Sberbank AM        | SBERRB |    0
+ Sberbank AM        | SBERTC |    0
+ VTB Capital AM     | VTBBLN |    0
+ VTB Capital AM     | VTBBPL |    0
+ VTB Capital AM     | VTBBRC |    0
+ VTB Capital AM     | VTBCS  |    0
+ VTB Capital AM     | VTBENG |    0
+ VTB Capital AM     | VTBEUR |    0
+ VTB Capital AM     | VTBGD  |    0
+ VTB Capital AM     | VTBGOS |    0
+ VTB Capital AM     | VTBLTI |    0
+ VTB Capital AM     | VTBMM  |    0
+ VTB Capital AM     | VTBMTL |    0
+ VTB Capital AM     | VTBMVB |    0
+ VTB Capital AM     | VTBONG |    0
+ VTB Capital AM     | VTBPP  |    0
+ VTB Capital AM     | VTBSTK |    0
+ VTB Capital AM     | VTBTLC |    0
+ VTB Capital AM     | VTBTRE |    0
+(64 rows)
+
