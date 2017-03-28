@@ -20,6 +20,7 @@ for i = 1:width(Returns)
     MonthlyReturns(: ,i) =  table2array( Returns(:, i) );
 end
 
+
 MonthlyReturns = MonthlyReturns(end-24:end, :);
 
 AssetList = P.Name;
@@ -77,43 +78,8 @@ for i=1:length(ReturnsOfCVaR)
 end
 
 
-%%
-%figure('position', [0, 0, 1200, 400])
-hold on
-set(gcf, 'Color', 'w');
-plot(PortfolioStd, PortfolioReturn)
-xlabel('Standart deviaton of returns');
-ylabel('Expected yearly return');
-scatter(SharpeStd, SharpeReturn, 20, 'r', 'filled')
-text(SharpeStd+0.001, SharpeReturn-0.001, 'Sharpe', 'FontSize', 6);
-%%% Colorized dots, Sharpe ratio, [smallest, biggest] -> [green?, red]
-c = (p.AssetMean-RiskFreeRate)./diag(p.AssetCovar).^.5;
-c = (c - min(c))./(max(c) - min(c));
-scatter(diag(p.AssetCovar).^.5, p.AssetMean, 20, c, 'filled')
-text(diag(p.AssetCovar).^.5+0.001, p.AssetMean-0.001, AssetList, 'FontSize', 6);
-hold off
 
-% portfolioexamples_plot('Efficient Frontier with Targeted Portfolios', ...
-% 	{'line', PortfolioStd/12^.5, PortfolioReturn/12}, ...
-%    {'scatter', SharpeStd/12^.5, SharpeReturn/12, {'Sharpe'}}, ...
-% 	{'scatter', sqrt(diag(p.AssetCovar))/12^.5, p.AssetMean/12, p.AssetList, '.r'});
-
-% figure;
-% set(gcf, 'Color', 'w');
-% plotFrontier(pCVaR);
-
-% plot(PortfolioReturn, normcdf(-PortfolioReturn./PortfolioStd))
-% xlabel('Expected return of portfolio');
-% ylabel('Probability of negative return');
- 	
-
-
-% % Check return for distribution
-% hold on
-% for i=1:length(Return(1, :))
-%     histogram(Return(:, i), 200, 'BinLimits', [0.8 1.2], 'Normalization','probability');
-% end
-%%
-% % Plot normal distribution
-x = [-1:.01:1];
-plot(x,normpdf(x, 0.2900, 0.1251))
+function [AssetMean, AssetCov] = computeMeanCov(A)
+	AssetMean = exp(mean(log(1 + A), 'omitnan')).^12-1; % year return
+	AssetCov = cov(A, 'partialrows')*12; % year covarience
+end

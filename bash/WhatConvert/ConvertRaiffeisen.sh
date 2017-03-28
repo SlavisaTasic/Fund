@@ -47,9 +47,9 @@ GetQuotes <- function(file.full){
   quotes.list <- read.csv(file.full, skip = 1, header = F)
   # get dates, prices and net asset values from list
   dates <- as.Date(quotes.list[[1]], format = '%d.%m.%Y') #make data format
-  prices <- as.numeric(quotes.list[[2]]) # make numbers format (looks better?)
-  NAV <- data.matrix(quotes.list[[3]])
-  NAV <- as.numeric(NAV)
+  prices <- as.numeric(quotes.list[[3]]) # make numbers format (looks better?)
+  # NAV <- data.matrix(quotes.list[[2]])
+  NAV <- as.numeric(quotes.list[[2]])
   # make symbol's character vector
   symbol <- rep(file.symbol, times=length(dates))
   # make dataframe
