@@ -1,9 +1,20 @@
 clear
 clc
-f = figure;
-plot([1:5, [5:-1:1]]);
-print(f, '-r150', '-dsvg', 'png/print.svg');
+fig = figure;
+bar([1 10 7 8 2 2 9 3 6])
+fig.PaperUnits = 'inches';
+fig.PaperPosition = [0 0 6 3];
+
+
+tic
+print(fig, '-r150', '-dsvg', 'png/print.svg');
+toc
 display('print done');
-saveas(f, 'png/saveas.svg');
+
+
+tic
+saveas(fig, 'png/saveas.svg');
+toc
 display('saveas done');
-close(f);
+
+close(fig);
