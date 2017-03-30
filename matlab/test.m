@@ -6,7 +6,8 @@ fig.PaperUnits = 'inches';
 fig.PaperPosition = [0 0 6 3];
 ax = fig.CurrentAxes;
 ax.Box = 'off';
-
+ax.TickLength = [0.005 0.025];
+ax.TickDir = 'out';
 
 
 % 432*216
