@@ -1,8 +1,8 @@
 
 function [groups, groupMatrix] = loadConstraints
 % LOADCONSTRAINTS Loads all Constraints, which will be added
-	groups = loadGroups
-	groupMatrix = loadGroupMatrix
+	groups = loadGroups;
+	groupMatrix = loadGroupMatrix;
 end
 
 function groups = loadGroups
