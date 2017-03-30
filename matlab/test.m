@@ -2,13 +2,18 @@ clear
 clc
 fig = figure;
 bar([1 10 7 8 2 2 9 3 6])
-fig.PaperUnits = 'inches';
-fig.PaperPosition = [0 0 6 3];
+fig.PaperUnits = 'points';
+fig.PaperPosition = [0 0 600 300];
 ax = fig.CurrentAxes;
 ax.Box = 'off';
 ax.TickLength = [0.005 0.025];
 ax.TickDir = 'out';
+%ax.Units = 'pixels';
+ax.OuterPosition 	% red
+ax.Position			% blue
+ax.TightInset		% magenta
 
+%ax.Position = [0.1000 0.1100 0.7750 0.8150];
 
 % 432*216
 %		 /[6 3]
