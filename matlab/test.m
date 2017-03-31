@@ -24,7 +24,6 @@ p = patch([X flip(X)], [upper flip(lower)], [0 191 255]/255);
 p.FaceAlpha = 0.3;
 p.EdgeColor = [1 1 1];
 p.AlignVertexCenters = 'on';
-p.AlignVertexCenters
 
 hold off
 
@@ -39,6 +38,7 @@ ax.Box = 'off';
 
 % Individual Axis Appearance and Scale
 ax.XLim = [min(ibm.dates)-2 max(ibm.dates)+5];
+ax.YLim = [min(lower) max(upper)];
 
 % Tick Values and Labels
 ax.TickLength = [0.005 0.025];
