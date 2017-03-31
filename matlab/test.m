@@ -33,7 +33,7 @@ ax = fig.CurrentAxes;
 ax.Box = 'off';
 
 % Individual Axis Appearance and Scale
-ax.XLim = [min(ibm.dates)-1 max(ibm.dates)+5];
+ax.XLim = [min(ibm.dates)-2 max(ibm.dates)+5];
 
 % Tick Values and Labels
 ax.TickLength = [0.005 0.025];
