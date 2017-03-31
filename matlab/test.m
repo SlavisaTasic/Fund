@@ -30,7 +30,7 @@ ax.TickLength = [0.005 0.025];
 ax.TickDir = 'out';
 
 % Location and Size
-ax.Position = [0.10 0.10 0.90 0.85];
+ax.Position = [0.07 0.10 0.90 0.85];
 
 
 tic
