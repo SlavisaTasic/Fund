@@ -9,11 +9,11 @@ ax.Box = 'off';
 ax.TickLength = [0.005 0.025];
 ax.TickDir = 'out';
 %ax.Units = 'pixels';
-ax.OuterPosition 	% red
-ax.Position			% blue
-ax.TightInset		% magenta
+%ax.OuterPosition 	% red
+%ax.Position			% blue
+%ax.TightInset		% magenta
 
-%ax.Position = [0.1000 0.1100 0.7750 0.8150];
+ax.Position = [0.10 0.10 0.90 0.85];
 
 % 432*216
 %		 /[6 3]
