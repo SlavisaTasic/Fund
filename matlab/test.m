@@ -13,7 +13,7 @@ ax.TickDir = 'out';
 %ax.Position			% blue
 %ax.TightInset		% magenta
 
-ax.Position = [0.10 0.10 0.90 0.85];
+ax.Position = [0.00 0.10 0.90 0.85];
 
 % 432*216
 %		 /[6 3]
