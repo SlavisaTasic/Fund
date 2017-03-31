@@ -18,9 +18,14 @@ ytickformat('%,.2f');
 datetick('x', 'mm.yyyy');
 hold on
 %plot(X, [-1.96*ibm_se+Y, 1.96*ibm_se+Y]);
+
+
 p = patch([X flip(X)], [upper flip(lower)], [0 191 255]/255);
 p.FaceAlpha = 0.3;
 p.EdgeColor = [1 1 1];
+p.AlignVertexCenters = 'on';
+p.AlignVertexCenters
+
 hold off
 
 fig.PaperUnits = 'points';
