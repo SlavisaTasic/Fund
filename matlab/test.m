@@ -20,7 +20,7 @@ hold on
 %plot(X, [-1.96*ibm_se+Y, 1.96*ibm_se+Y]);
 p = patch([X flip(X)], [upper flip(lower)], [0 191 255]/255);
 p.FaceAlpha = 0.5;
-p.EdgeColor = 'none';
+p.EdgeColor = [1 1 1];
 hold off
 
 fig.PaperUnits = 'points';
