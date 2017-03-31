@@ -1,7 +1,15 @@
 clear
 clc
+
+ibm = ascii2fts('ibm9599.dat', 1, 3, 2);
+ibm = fillts(ibm);
+ibm = tick2ret(ibm.CLOSE);
+
 fig = figure;
-bar([1 10 7 8 2 2 9 3 6])
+plot(ibm);
+datetick('x', 'mm.yyyy');
+
+
 fig.PaperUnits = 'points';
 fig.PaperPosition = [0 0 600 300];
 ax = fig.CurrentAxes;
