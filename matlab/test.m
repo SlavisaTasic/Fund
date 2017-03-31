@@ -4,17 +4,19 @@ clc
 ibm = ascii2fts('ibm9599.dat', 1, 3, 2);
 ibm = fillts(ibm);
 ibm = tomonthly(ibm);
-%ibm = tick2ret(ibm.CLOSE);
-%ibm_se = std(ibm);
-%ibm_se = ibm_se.CLOSE;
+ibm = tick2ret(ibm.CLOSE);
+ibm_se = std(ibm);
+ibm_se = ibm_se.CLOSE;
+X = ibm.dates;
+Y = fts2mat(ibm);
+
 
 fig = figure;
-plot(ibm);
-%plot(ibm.dates, ibm.CLOSE);
+plot(X, Y);
 ytickformat('%,.2f');
 datetick('x', 'mm.yyyy');
 hold on
-%plot(ibm);
+plot(X, [-1.96*ibm_se+Y, 1.96*ibm_se+Y]);
 hold off
 
 fig.PaperUnits = 'points';
