@@ -35,9 +35,10 @@ ax = fig.CurrentAxes;
 
 % Appearance
 ax.Box = 'off';
+ax.Layer = 'top';
 
 % Individual Axis Appearance and Scale
-ax.XLim = [min(ibm.dates)-2 max(ibm.dates)+5];
+ax.XLim = [min(ibm.dates) max(ibm.dates)+5];
 ax.YLim = [min(lower) max(upper)];
 
 % Tick Values and Labels
