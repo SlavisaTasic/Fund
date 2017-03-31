@@ -18,7 +18,7 @@ ytickformat('%,.2f');
 datetick('x', 'mm.yyyy');
 hold on
 %plot(X, [-1.96*ibm_se+Y, 1.96*ibm_se+Y]);
-fill([X' flip(X')], [upper' flip(lower')], [0.5 0.5 1]);
+fill([X' fliplr(X')], [upper' fliplr(lower')], [0.5 0.5 1]);
 hold off
 
 fig.PaperUnits = 'points';
