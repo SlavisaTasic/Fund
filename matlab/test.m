@@ -7,8 +7,8 @@ ibm = tomonthly(ibm);
 ibm = tick2ret(ibm.CLOSE);
 ibm_se = std(ibm);
 ibm_se = ibm_se.CLOSE;
-X = ibm.dates;
-Y = fts2mat(ibm);
+X = ibm.dates';
+Y = fts2mat(ibm)';
 lower = -1.96*ibm_se+Y;
 upper = 1.96*ibm_se+Y;
 
@@ -18,7 +18,7 @@ ytickformat('%,.2f');
 datetick('x', 'mm.yyyy');
 hold on
 %plot(X, [-1.96*ibm_se+Y, 1.96*ibm_se+Y]);
-fill([X' fliplr(X')], [upper' fliplr(lower')], [0.5 0.5 1]);
+fill([X fliplr(X)], [upper fliplr(lower)], [0.5 0.5 1]);
 hold off
 
 fig.PaperUnits = 'points';
