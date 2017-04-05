@@ -3,7 +3,7 @@ clc
 
 ibm = ascii2fts('ibm9599.dat', 1, 3, 2);
 ibm = fillts(ibm);
-ibm = tomonthly(ibm);
+%ibm = tomonthly(ibm);
 ibm = tick2ret(ibm.CLOSE);
 ibm_se = std(ibm);
 ibm_se = ibm_se.CLOSE;
@@ -49,15 +49,15 @@ ax.TickDir = 'out';
 ax.Position = [0.07 0.10 0.90 0.85];
 
 
-tic
-print(fig, '-r150', '-dsvg', 'png/print.svg');
-toc
-display('print done');
+%tic
+%print(fig, '-r150', '-dsvg', 'png/print.svg');
+%toc
+%display('print done');
 
 
-tic
+%tic
 saveas(fig, 'png/saveas.svg');
-toc
+%toc
 display('saveas done');
 
 close(fig);
