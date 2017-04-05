@@ -4,6 +4,7 @@ clc
 ibm = ascii2fts('ibm9599.dat', 1, 3, 2);
 ibm = fillts(ibm);
 %ibm = tomonthly(ibm);
+%ibm = toweekly(ibm);
 ibm = tick2ret(ibm.CLOSE);
 ibm_se = std(ibm);
 ibm_se = ibm_se.CLOSE;
